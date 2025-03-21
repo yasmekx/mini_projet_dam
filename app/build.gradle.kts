@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.mini_projet_dam"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.mini_projet_dam"

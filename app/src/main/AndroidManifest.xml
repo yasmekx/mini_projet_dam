@@ -21,6 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- About Activity -->
+        <activity android:name=".About" android:exported="false"/>
+
+        <!-- Students Activity -->
+        <activity android:name=".Students" android:exported="false"/>
     </application>
 
 </manifest>
