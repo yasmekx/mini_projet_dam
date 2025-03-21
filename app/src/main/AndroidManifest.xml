@@ -27,6 +27,10 @@
 
         <!-- Students Activity -->
         <activity android:name=".Students" android:exported ="false"/>
+        <activity android:name=".HotelsActivity" android:exported="false"/>
+        <activity android:name=".RestaurantActivity" android:exported="false"/>
+        <activity android:name=".TouristSitesActivity" android:exported="false"/>
+        <activity android:name=".TransportationActivity" android:exported="false"/>
     </application>
 
 </manifest>

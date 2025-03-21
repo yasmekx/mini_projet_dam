@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Cirta</string>
+    <string name="Home_titel">Constantine – The City of Hanging Bridges</string>
+    <string name="cirta_description">
+        It is the third-largest city in Algeria and the capital of the country’s eastern region.
+        Known as the City of Hanging Bridges due to its unique geographical landscape, it is built on a solid limestone rock, giving it a distinctive appearance and earning it the title "The City of Ancient Rock."\n\n
+        With a history spanning over 2,300 years, it was originally known as Cirta and served as the capital of the Kingdom of Numidia before falling under Roman rule.\n
+        It received its current name in 313 AD in honor of Emperor Constantine the Great.\n
+        Throughout the centuries, it remained an important cultural and historical center, preserving its rich heritage to this day.
+    </string>
+    <string name="Hotels">Hotels</string>
+    <string name="Restaurants">Restaurants</string>
+    <string name="Tourist">Tourist Attractions</string>
+    <string name="Transportation">Transportation</string>
 </resources>
