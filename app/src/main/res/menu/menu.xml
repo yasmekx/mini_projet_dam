@@ -1,17 +1,18 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!-- Main Feature -->
     <item
         android:id="@+id/students"
-        android:title="Students" />
+        android:title="@string/students"/>
 
     <!-- Settings -->
     <item
         android:id="@+id/language"
-        android:title="Language" />
+        android:title="@string/language"/>
 
     <!-- Info -->
     <item
         android:id="@+id/about"
-        android:title="About the app" />
+        android:title="@string/about" />
 </menu>

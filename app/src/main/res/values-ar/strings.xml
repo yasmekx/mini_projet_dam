@@ -13,4 +13,36 @@
     <string name="Restaurants">مطاعم</string>
     <string name="Tourist">معالم سياحية</string>
     <string name="Transportation">وسائل النقل</string>
+    <string name="about">حول التطبيق</string>
+    <string name="students">الطلاب</string>
+    <string name="language">اللغة</string>
+    <string name="museums">المتاحف</string>
+    <string name="historical_landmarks">المعالم التاريخية</string>
+    <string name="natural_sites">المواقع الطبيعية</string>
+    <string name="bridges">الجسور</string>
+    <string name="cultural_religious_sites">المواقع الثقافية والدينية</string>
+
+    <!-- Bridge Names in Arabic -->
+    <string name="sidi_mcid">سيدي مسيد</string>
+    <string name="sidi_rached">سيدي راشد</string>
+    <string name="el_kantara">القنطرة</string>
+    <string name="pont_des_chutes">الشلالات</string>
+    <string name="bab_el_kantra">باب القنطرة</string>
+
+    <!-- Bridge Descriptions in Arabic -->
+    <string name="sidi_mcid_desc">أعلى جسر في قسنطينة بارتفاع 175 متراً فوق وادي الرمال. بُني عام 1912 وكان يُعتبر أعلى جسر معلق في العالم آنذاك.</string>
+    <string name="sidi_rached_desc">جسر حجري مذهل بني عام 1912، يحتوي على 27 قوسًا ويرتفع 105 أمتار. كان في السابق أكبر جسر حجري في العالم.</string>
+    <string name="el_kantara_desc">يعد من أقدم جسور قسنطينة، ويعود تاريخه إلى العصر الروماني. تم ترميمه عدة مرات، ويعتبر ممرًا تاريخيًا إلى المدينة.</string>
+    <string name="pont_des_chutes_desc">سُمي بهذا الاسم نسبةً إلى الشلالات التي يعبرها. بُني عام 1925 ويسمح للمركبات والمشاة بالاستمتاع بجمال قسنطينة الطبيعي.</string>
+    <string name="bab_el_kantra_desc">تم بناؤه من قبل العثمانيين عام 1792 وأعيد ترميمه عام 1863، ويعد بوابة رئيسية للمدينة القديمة.</string>
+
+    <!-- Bridge Locations in Arabic -->
+    <string name="sidi_mcid_location">يقع في حي سيدي مسيد، بلدية قسنطينة. يربط وسط المدينة بمرتفعات سيدي مسيد، بالقرب من المستشفى الجامعي لقسنطينة.</string>
+    <string name="sidi_rached_location">يقع في وسط مدينة قسنطينة، ويربط بين مركز المدينة وهضبة منصورة، بالقرب من محطة قطار قسنطينة.</string>
+    <string name="el_kantara_location">يقع في حي باب القنطرة، بلدية قسنطينة. يربط بين الجزء السفلي للمدينة والمدينة القديمة، بالقرب من مسجد الأمير عبد القادر.</string>
+    <string name="pont_des_chutes_location">يقع بالقرب من حي بومرزوق، بلدية قسنطينة. يمتد فوق شلالات وادي الرمال، مما يوفر إطلالة خلابة على الوادي.</string>
+    <string name="bab_el_kantra_location">يقع في حي باب القنطرة، بلدية قسنطينة. يعد المدخل التاريخي للمدينة، بالقرب من الحصن العثماني القديم.</string>
+
+    <string name="location">الموقع:</string>
+    <string name="location_btn">عرض على الخريطة</string>
 </resources>

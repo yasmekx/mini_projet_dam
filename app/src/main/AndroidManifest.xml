@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -31,6 +32,13 @@
         <activity android:name=".RestaurantActivity" android:exported="false"/>
         <activity android:name=".TouristSitesActivity" android:exported="false"/>
         <activity android:name=".TransportationActivity" android:exported="false"/>
+        <activity android:name=".TouristListActivity" android:exported="false"/>
+        <activity android:name=".Bridge" android:exported="false"/>
+        <activity android:name=".Historical" android:exported="false"/>
+        <activity android:name=".Museum" android:exported="false"/>
+        <activity android:name=".Nature" android:exported="false"/>
+        <activity android:name=".Disc" android:exported="false"/>
+
     </application>
 
 </manifest>

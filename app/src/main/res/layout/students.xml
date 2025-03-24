@@ -14,11 +14,11 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/main_color"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        app:popupTheme="@style/MenuTextStyle"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="students" />
+        android:text="@string/students" />
 
 </LinearLayout>

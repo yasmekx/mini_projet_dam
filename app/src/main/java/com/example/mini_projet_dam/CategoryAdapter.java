@@ -14,24 +14,30 @@ import androidx.annotation.Nullable;
 import java.util.List;
 
 public class CategoryAdapter extends ArrayAdapter<Category> {
-    public CategoryAdapter(Context context, List<Category> categories) {
-        super(context, 0, categories);
+    private final int resourceLayout; // Store the passed layout
+
+    public CategoryAdapter(Context context, int resource, List<Category> categories) {
+        super(context, resource, categories);
+        this.resourceLayout = resource; // Assign layout to the variable
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(resourceLayout, parent, false);
         }
 
         Category category = getItem(position);
         if (category != null) {
             TextView nameText = convertView.findViewById(R.id.name);
-            ImageView categoryImage = convertView.findViewById(R.id.img);
-
             nameText.setText(category.name);
-            categoryImage.setImageDrawable(category.img);
+
+            // Check if layout has an ImageView before using it
+            ImageView categoryImage = convertView.findViewById(R.id.img);
+            if (categoryImage != null && category.img != null) {
+                categoryImage.setImageDrawable(category.img);
+            }
         }
         return convertView;
     }
