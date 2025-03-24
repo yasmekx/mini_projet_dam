@@ -16,7 +16,7 @@ import androidx.core.content.ContextCompat;
 
 import java.util.Locale;
 
-public class About extends AppCompatActivity {
+public class About extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

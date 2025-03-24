@@ -9,7 +9,7 @@
     <solid android:color="@color/white" /> <!-- Change to desired color -->
 
     <!-- Border -->
-    <stroke android:width="5dp" android:color="@color/secondary" /> <!-- Change to desired color -->
+    <stroke android:width="3dp" android:color="@color/secondary" /> <!-- Change to desired color -->
 
     <!-- Padding (optional, prevents text from touching edges) -->
     <padding android:left="10dp" android:right="10dp" android:top="10dp" android:bottom="10dp"/>

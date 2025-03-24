@@ -4,13 +4,11 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.widget.GridView;
-import android.widget.ListView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,7 +18,7 @@ import androidx.core.content.ContextCompat;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity{
 
     ArrayList<Category> categories;
     GridView lv;
@@ -28,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        loadLocale();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -50,24 +47,27 @@ public class MainActivity extends AppCompatActivity {
         categories.add(new Category(getString(R.string.Transportation), ContextCompat.getDrawable(this, R.drawable.trasportation)));
 
         // Set up adapter
-        adapter = new CategoryAdapter(this, categories);
+        adapter = new CategoryAdapter(this, R.layout.main_list, categories);
         lv.setAdapter(adapter);
-        lv.setOnItemClickListener((parent, view, position, id) -> {
-            String selectedCategory = categories.get(position).name; // Assuming getName() returns category name
 
-            if (selectedCategory.equals("Restaurants")){
-                startActivity(new Intent(MainActivity.this, RestaurantActivity.class));
+        lv.setOnItemClickListener((parent, view, position, id) -> {
+            Intent intent = null;
+
+            if (position == 0) { // Restaurants
+                intent = new Intent(MainActivity.this, RestaurantActivity.class);
+            } else if (position == 1) { // Hotels
+                intent = new Intent(MainActivity.this, HotelsActivity.class);
+            } else if (position == 2) { // Tourist Attractions
+                intent = new Intent(MainActivity.this, TouristSitesActivity.class);
+            } else if (position == 3) { // Transportation
+                intent = new Intent(MainActivity.this, TransportationActivity.class);
             }
-            else if (selectedCategory.equals("Tourist Attractions")){
-                startActivity(new Intent(MainActivity.this, TouristSitesActivity.class));
-            }
-            else if (selectedCategory.equals("Transportation")){
-                startActivity(new Intent(MainActivity.this, TransportationActivity.class));
-            }
-            else if (selectedCategory.equals("Hotels")){
-                startActivity(new Intent(MainActivity.this, HotelsActivity.class));
+
+            if (intent != null) {
+                startActivity(intent);
             }
         });
+
 
 
 
@@ -132,17 +132,5 @@ public class MainActivity extends AppCompatActivity {
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         finish();
-    }
-
-    private void loadLocale() {
-        SharedPreferences prefs = getSharedPreferences("Settings", MODE_PRIVATE);
-        String language = prefs.getString("my_lang", "en");
-
-        Locale myLocale = new Locale(language);
-        Locale.setDefault(myLocale);
-        Resources res = getResources();
-        Configuration config = res.getConfiguration();
-        config.setLocale(myLocale);
-        res.updateConfiguration(config, res.getDisplayMetrics());
     }
 }

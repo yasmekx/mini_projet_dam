@@ -12,4 +12,36 @@
     <string name="Restaurants">Restaurants</string>
     <string name="Tourist">Tourist Attractions</string>
     <string name="Transportation">Transportation</string>
+    <string name="about">About the app</string>
+    <string name="students">Students</string>
+    <string name="language">Language</string>
+    <string name="museums">Museums</string>
+    <string name="historical_landmarks">Historical Landmarks</string>
+    <string name="natural_sites">Natural Sites</string>
+    <string name="bridges">Bridges</string>
+    <string name="cultural_religious_sites">Cultural &amp; Religious Sites</string>
+
+    <!-- Bridge Names -->
+    <string name="sidi_mcid">Sidi M’Cid Bridge</string>
+    <string name="sidi_rached">Sidi Rached Bridge</string>
+    <string name="el_kantara">El-Kantara Bridge</string>
+    <string name="pont_des_chutes">Falls Bridge</string>
+    <string name="bab_el_kantra">Bab El Kantra Bridge</string>
+
+    <!-- Bridge Descriptions in English -->
+    <string name="sidi_mcid_desc">The highest bridge in Constantine, standing 175 meters above the Rhumel Gorge. Built in 1912, it was once the highest suspension bridge in the world.</string>
+    <string name="sidi_rached_desc">A stunning stone-arch bridge built in 1912, featuring 27 arches and standing 105 meters high. It was once the largest stone bridge in the world.</string>
+    <string name="el_kantara_desc">One of Constantine’s oldest bridges, dating back to the Roman era. It has been rebuilt multiple times, serving as a historic passageway into the city.</string>
+    <string name="pont_des_chutes_desc">Named after the waterfalls it crosses, this 1925 bridge allows vehicles and pedestrians to admire the natural beauty of Constantine.</string>
+    <string name="bab_el_kantra_desc">Originally built by the Ottomans in 1792 and rebuilt in 1863, this bridge serves as an important gateway to the old city.</string>
+
+    <!-- Bridge Locations in English -->
+    <string name="sidi_mcid_location">Located in the Sidi M’Cid district, Constantine Municipality. It connects the city center to the heights of Sidi M’Cid, near the University Hospital of Constantine.</string>
+    <string name="sidi_rached_location">Located in the downtown area of Constantine, it connects the city center to the Plateau of Mansourah, near the Constantine train station.</string>
+    <string name="el_kantara_location">Located in the Bab El Kantara district, Constantine Municipality. It connects the lower part of the city with the old medina, near Emir Abdelkader Mosque.</string>
+    <string name="pont_des_chutes_location">Located near the Boumerzoug district, Constantine Municipality. It spans over the waterfalls of the Rhumel River, offering a scenic view of the valley.</string>
+    <string name="bab_el_kantra_location">Located in the Bab El Kantara district, Constantine Municipality. It serves as the historical entrance to the city, near the ancient Ottoman fortress.</string>
+
+    <string name="location">Location</string>
+    <string name="location_btn">See in Map</string>
 </resources>

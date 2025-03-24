@@ -2,11 +2,10 @@ package com.example.mini_projet_dam;
 
 import android.os.Bundle;
 import android.view.Window;
-
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-public class HotelsActivity extends AppCompatActivity {
+//check Base activity to understand why we're extending this class instead of the usual one:)
+public class HotelsActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
