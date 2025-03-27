@@ -44,4 +44,33 @@
 
     <string name="location">Location</string>
     <string name="location_btn">See in Map</string>
+
+
+    //Bus
+
+    <string name="Busg"> The bus network is managed by the Société de Transport de Constantine (STC).
+    It connects the city is main districts, including markets, schools, hospitals, and
+    residential areas.
+
+    </string>
+
+    <string name="Busf"> Buses run all day, with schedules
+    Regular. They are more common during rush hour in the morning and evening.
+    </string>
+
+    <string name="Bust">Rides are affordable, with tickets costing a few
+    Dinars. Transportation cards and monthly passes are available for users
+    Regular.
+    </string>
+
+    <string name="Busa"> Buses depart from terminals and main stops in different
+    areas of the city, generally well signposted.
+    </string>
+
+    <string name="Buse">The condition of the buses varies depending on the route. Some are modern,
+    while others are older. Local authorities are working to improve quality
+    service and cleanliness.
+    </string>
+
+
 </resources>
