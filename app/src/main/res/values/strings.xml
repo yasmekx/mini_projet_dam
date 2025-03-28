@@ -42,6 +42,53 @@
     <string name="pont_des_chutes_location">Located near the Boumerzoug district, Constantine Municipality. It spans over the waterfalls of the Rhumel River, offering a scenic view of the valley.</string>
     <string name="bab_el_kantra_location">Located in the Bab El Kantara district, Constantine Municipality. It serves as the historical entrance to the city, near the ancient Ottoman fortress.</string>
 
+
+    <!-- Historical Sites Names in English -->
+    <string name="emir_abdelkader_mosque">Emir Abdelkader Mosque</string>
+    <string name="palace_ahmed_bey">Palace of Ahmed Bey</string>
+    <string name="medersa_constantine">Medersa of Constantine</string>
+    <string name="tomb_massinissa">Tomb of Massinissa</string>
+    <string name="ain_fouara_baths">Ain Fouara Roman Baths</string>
+
+    <!-- Historical Sites Descriptions in English -->
+    <string name="emir_abdelkader_mosque_desc">The Emir Abdelkader Mosque is a modern architectural masterpiece, designed in the Andalusian-Maghreb style and inaugurated in 1994. It can accommodate over 15,000 worshippers and features two towering minarets standing at 107 meters. The mosque is adorned with intricate Quranic inscriptions and houses an Islamic university specializing in Sharia and jurisprudence.</string>
+    <string name="palace_ahmed_bey_desc">The Palace of Ahmed Bey is one of the most magnificent Ottoman-era palaces in Algeria, built between 1826 and 1835 as the residence of Ahmed Bey, the last ruler of Constantine under Ottoman rule. It boasts over 120 rooms decorated with Andalusian-style mosaics, expansive gardens with rare plants, and beautifully painted ceilings depicting scenes from that era.\n
+        \n
+        The palace is open Sunday to Thursday, from 9:00 AM to 4:00 PM.\n
+        \nEntrance fee is approximately 200 Algerian Dinars (about 1.5 USD).
+    </string>
+    <string name="medersa_constantine_desc">The Medersa of Constantine, also known as the Pashas School, dates back to the 18th century and served as a major educational hub for Islamic studies and Arabic language. It features traditional Islamic architecture, including elegant archways, open courtyards, and Quranic inscriptions on its walls. During French colonization, the school was closed for a period but was later restored as a cultural symbol of Algerian heritage.</string>
+    <string name="tomb_massinissa_desc">The Tomb of Massinissa dates back to the 3rd century BC and is believed to be the final resting place of King Massinissa, the founder of the Numidian kingdom and a key military leader in North Africa. Perched on a high hill, the tomb simple yet symbolic design reflects the grandeur of the Numidian civilization. The surrounding area was once an important trade and cultural center.</string>
+    <string name="ain_fouara_baths_desc">The Ain Fouara Roman Baths are among the oldest hydrothermal facilities in Algeria, used since the Roman era for healing and relaxation. These baths attracted aristocrats and travelers seeking therapeutic mineral-rich waters. Today, remnants of the ancient walls and basins remain, showcasing the Romans advanced engineering techniques in water heating and thermal architecture.</string>
+
+    <!-- Historical Sites Locations in English -->
+    <string name="emir_abdelkader_mosque_location">Located in the center of Constantine, it is a major religious and cultural landmark in Algeria.</string>
+    <string name="palace_ahmed_bey_location">Located in the heart of Constantine, near Martyrs Square, it is one of the most important Ottoman palaces in Algeria.</string>
+    <string name="medersa_constantine_location">Located in the old city center, it was an important educational center during the Ottoman period.</string>
+    <string name="tomb_massinissa_location">Located in El Khroub, near Constantine, it is one of the most significant Numidian landmarks.</string>
+    <string name="ain_fouara_baths_location">Located in a mountainous area near Constantine, it is one of the oldest Roman baths in Algeria.</string>
+
+    <!-- Cirta Museum Name -->
+    <string name="cirta_museum">Cirta Museum</string>
+    <string name="cirta_museum_desc">The Cirta Museum is one of the oldest and most important museums in Algeria, showcasing a vast collection of artifacts from the Numidian, Roman, and Byzantine eras. The museum houses statues, mosaics, coins, and rare manuscripts, making it an essential destination for history enthusiasts.\n\n
+        Open from Sunday to Thursday, from 9:00 AM to 4:00 PM.\n\nEntrance fee: 150 DZD (~1 USD).</string>
+    <string name="cirta_museum_location">Located in the Kasbah district, near the hanging bridges in the center of Constantine.</string>
+
+    <!-- Natural Sites Names in English -->
+    <string name="ghabat_el_wahch">Ghabat El Wahch</string>
+    <string name="tiddis">Tiddis</string>
+    <string name="oued_rhumel">Oued Rhumel</string>
+
+    <!-- Natural Sites Descriptions in English -->
+    <string name="ghabat_el_wahch_desc">Ghabat El Wahch, meaning "Forest of the Beast," is a vast green space located on the outskirts of Constantine. The name originates from old legends and local stories that suggest wild animals, especially wolves, once roamed this forest in the past. Today, it serves as a popular recreational area for locals and visitors, offering fresh air, hiking trails, and scenic picnic spots. The forest is home to diverse plant species and wildlife, making it an excellent escape into nature.</string>
+    <string name="tiddis_desc">Tiddis is an ancient Numidian and Roman archaeological site perched on a hilltop near Constantine. It offers breathtaking panoramic views of the surrounding valleys. The ruins include Roman roads, a forum, houses, and water systems, showcasing the blend of Numidian and Roman architectural styles. Tiddis is an ideal spot for history enthusiasts and nature lovers alike.</string>
+    <string name="oued_rhumel_desc">Oued Rhumel is the iconic river that carved Constantine’s famous gorges, creating the city dramatic landscape. The river winds through deep canyons beneath Constantines bridges, offering spectacular views. It has played a crucial role in the city history and provides stunning natural scenery for sightseeing and photography.</string>
+
+    <!-- Natural Sites Locations in English -->
+    <string name="ghabat_el_wahch_location">Located on the outskirts of Constantine, it is one of the city largest green spaces, ideal for outdoor activities.</string>
+    <string name="tiddis_location">Located approximately 30 km from Constantine, Tiddis is a hilltop archaeological site with breathtaking views of the surrounding valleys.</string>
+    <string name="oued_rhumel_location">Flowing through the heart of Constantine, Oued Rhumel is a key geographical feature that shaped the city landscape.</string>
+
     <string name="location">Location</string>
     <string name="location_btn">See in Map</string>
 </resources>
