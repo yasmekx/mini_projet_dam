@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import androidx.core.content.ContextCompat;
 
+import com.google.android.material.button.MaterialButton;
+
 public class About extends BaseActivity {
 
     String email = "Kenza.mennas@gmail.com";
@@ -23,7 +25,7 @@ public class About extends BaseActivity {
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
 
-        Button btn = findViewById(R.id.feedback);
+        MaterialButton btn = findViewById(R.id.feedback);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

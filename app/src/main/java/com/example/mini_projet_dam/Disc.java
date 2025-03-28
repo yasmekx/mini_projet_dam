@@ -7,9 +7,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.widget.Toolbar;
+
+import com.google.android.material.button.MaterialButton;
+
 public class Disc extends BaseActivity {
 
-    LinearLayout mapButton;
+    MaterialButton mapButton;
     int categoryIndex; // New variable to track category
     int itemIndex;
     TextView itemNameTextView;
@@ -38,6 +42,10 @@ public class Disc extends BaseActivity {
         itemDisc = findViewById(R.id.disc);
         itemLocation = findViewById(R.id.loc);
         mapButton = findViewById(R.id.mapButton);
+        Toolbar toolbar = findViewById(R.id.topAppBar);
+
+        // Set the Toolbar as the ActionBar
+        setSupportActionBar(toolbar);
 
         // Arrays for item details
         int[][] imageResIds = {
@@ -152,6 +160,8 @@ public class Disc extends BaseActivity {
         if (categoryIndex >= 0 && categoryIndex < imageResIds.length &&
                 itemIndex >= 0 && itemIndex < imageResIds[categoryIndex].length) {
 
+            getSupportActionBar().setTitle(nameResIds[categoryIndex][itemIndex]);
+
             // Set image
             itemImageView.setImageResource(imageResIds[categoryIndex][itemIndex]);
 
@@ -168,9 +178,7 @@ public class Disc extends BaseActivity {
         }
 
         // Set click listener for map
-        mapButton.setOnClickListener(v -> {
-            openGoogleMaps();
-        });
+        mapButton.setOnClickListener(v -> openGoogleMaps());
     }
 
     private void openGoogleMaps() {
