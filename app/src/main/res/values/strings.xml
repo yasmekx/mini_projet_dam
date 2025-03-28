@@ -91,4 +91,29 @@
 
     <string name="location">Location</string>
     <string name="location_btn">See in Map</string>
+
+    <!-- About Page Title -->
+    <string name="about_title">About Cirta</string>
+
+    <!-- Main Tagline -->
+    <string name="about_tagline">"Discover Constantine like never before!"!</string>
+
+    <!-- Main Description -->
+    <string name="about_description">Cirta is the comprehensive mobile guide designed to transform your exploration of Constantine, one of Algeria\'s most historic and breathtaking cities. We understand that travelers want convenience, depth, and authenticity when discovering a new destination – and that\'s exactly what we deliver.</string>
+
+    <!-- Why Cirta Section -->
+    <string name="about_why_title">Why Cirta?</string>
+    <string name="about_why_description">Before Cirta, exploring Constantine meant jumping between multiple websites, struggling with fragmented information, and potentially missing hidden gems. Our app brings everything you need into one powerful, user-friendly platform.</string>
+
+    <string name="about_offer">What We Offer:</string>
+    <!-- Features -->
+    <string name="about_feature_categories">-Comprehensive Historical Sites\n-Local Restaurant Recommendations\n-Accommodation Options\n-Transportation Guides\n-Interactive City Maps\n-Local Tips and Insights</string>
+
+    <!-- Closing Tagline -->
+    <string name="about_closing_tagline">Explore. Discover. Experience.</string>
+
+    <!--feedback-->
+    <string name="problem">Facing a problem?</string>
+    <string name="send_feedback">Send us your feedback!</string>
+
 </resources>

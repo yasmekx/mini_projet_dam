@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cirta</string>
+    <string name="app_name">سيرتا</string>
     <string name="Home_titel">قسنطينة – مدينة الجسور المعلقة</string>
     <string name="cirta_description">
         هي ثالث أكبر مدينة في الجزائر وعاصمة الشرق الجزائري.\n
@@ -93,4 +93,33 @@
 
     <string name="location">الموقع:</string>
     <string name="location_btn">عرض على الخريطة</string>
+
+    <!-- About Page Strings -->
+
+    <!-- About Page Title -->
+    <string name="about_title">عن تطبيق سيرتا</string>
+
+    <!-- Main Tagline -->
+    <string name="about_tagline">اكتشف قسنطينة كما لم تكتشفها من قبل!</string>
+
+    <!-- Main Description -->
+    <string name="about_description">سيرتا هو الدليل السياحي الشامل المصمم لتحويل رحلتك الاستكشافية إلى مدينة قسنطينة، واحدة من أكثر المدن الجزائرية تاريخاً وجمالاً. نحن ندرك أن المسافرين يبحثون عن الراحة والعمق والأصالة عند اكتشاف وجهة جديدة - وهذا بالضبط ما نقدمه.</string>
+
+    <!-- Why Cirta Section -->
+    <string name="about_why_title">لماذا سيرتا؟</string>
+    <string name="about_why_description">قبل سيرتا، كان استكشاف قسنطينة يعني التنقل بين مواقع إلكترونية متعددة، ومحاولة جمع معلومات مبعثرة، وربما إغفال بعض الكنوز الخفية. تطبيقنا يجمع كل ما تحتاجه في منصة واحدة قوية وسهلة الاستخدام.</string>
+
+    <string name="about_offer">ما نقدمه:</string>
+
+    <!-- Features -->
+    <string name="about_feature_categories">-المواقع التاريخية الشاملة\n-توصيات المطاعم المحلية\n-خيارات الإقامة\n-أدلة المواصلات\n-خرائط المدينة التفاعلية\n-نصائح محلية وتوجيهات</string>
+
+    <!-- Closing Tagline -->
+    <string name="about_closing_tagline">استكشف. اكتشف. عش التجربة.</string>
+
+    <!--feedback-->
+    <string name="problem">تواجه مشكلة؟</string>
+    <string name="send_feedback">!أرسل لنا ملاحظاتك</string>
+
+
 </resources>
