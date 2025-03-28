@@ -54,7 +54,7 @@ public class MainActivity extends BaseActivity{
             Intent intent = null;
 
             if (position == 0) { // Restaurants
-                intent = new Intent(MainActivity.this, RestaurantActivity.class);
+                intent = new Intent(MainActivity.this, restaurants.class);
             } else if (position == 1) { // Hotels
                 intent = new Intent(MainActivity.this, HotelsActivity.class);
             } else if (position == 2) { // Tourist Attractions

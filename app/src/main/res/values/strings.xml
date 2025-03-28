@@ -42,6 +42,74 @@
     <string name="pont_des_chutes_location">Located near the Boumerzoug district, Constantine Municipality. It spans over the waterfalls of the Rhumel River, offering a scenic view of the valley.</string>
     <string name="bab_el_kantra_location">Located in the Bab El Kantara district, Constantine Municipality. It serves as the historical entrance to the city, near the ancient Ottoman fortress.</string>
 
+    <!-- Cirta Museum -->
+    <string name="cirta_museum">Cirta Museum</string>
+
+    <!-- Cirta Museum Description -->
+    <string name="cirta_museum_desc">Cirta Museum is the main archaeological and historical museum of Constantine, housing over 10,000 artifacts that reflect the city diverse historical periods, from the Numidian and Roman eras to the Islamic age. Officially inaugurated in 1931, the museum features remarkable collections of Roman sculptures, mosaics, ancient coins, pottery, as well as rare manuscripts and historical documents that shed light on Constantine’s rich past.</string>
+
+    <!-- Cirta Museum Location -->
+    <string name="cirta_museum_location">Located in the heart of Constantine, near the old city, it is a must-visit destination for history enthusiasts and cultural explorers.</string>
+
+
+    <!-- Natural Sites Names in English -->
+    <string name="ghabat_el_wahch">Ghabat El Wahch</string>
+    <string name="tiddis">Tiddis</string>
+    <string name="oued_rhumel">Oued Rhumel</string>
+
+    <!-- Natural Sites Descriptions in English -->
+    <string name="ghabat_el_wahch_desc">Ghabat El Wahch, meaning "Forest of the Beast," is a vast green space located on the outskirts of Constantine. It serves as a popular recreational area for locals and visitors, offering fresh air, hiking trails, and scenic picnic spots. The forest is home to diverse plant species and wildlife, making it an excellent escape into nature.</string>
+    <string name="tiddis_desc">Tiddis is an ancient Numidian and Roman archaeological site perched on a hilltop near Constantine. It offers breathtaking panoramic views of the surrounding valleys. The ruins include Roman roads, a forum, houses, and water systems, showcasing the blend of Numidian and Roman architectural styles. Tiddis is an ideal spot for history enthusiasts and nature lovers alike.</string>
+    <string name="oued_rhumel_desc">Oued Rhumel is the iconic river that carved Constantine’s famous gorges, creating the city dramatic landscape. The river winds through deep canyons beneath Constantine’s bridges, offering spectacular views. It has played a crucial role in the city history and provides stunning natural scenery for sightseeing and photography.</string>
+
+    <!-- Natural Sites Locations in English -->
+    <string name="ghabat_el_wahch_location">Located on the outskirts of Constantine, it is one of the city largest green spaces, ideal for outdoor activities.</string>
+    <string name="tiddis_location">Located approximately 30 km from Constantine, Tiddis is a hilltop archaeological site with breathtaking views of the surrounding valleys.</string>
+    <string name="oued_rhumel_location">Flowing through the heart of Constantine, Oued Rhumel is a key geographical feature that shaped the city landscape.</string>
+
+    <!-- Emir Abdelkader Mosque -->
+    <string name="emir_abdelkader_mosque">Emir Abdelkader Mosque</string>
+
+    <!-- Emir Abdelkader Mosque Description -->
+    <string name="emir_abdelkader_mosque_desc">The Emir Abdelkader Mosque is one of Algeria’s most iconic religious landmarks, inaugurated in 1994. Built in the Andalusian-Maghreb architectural style, the mosque features two towering minarets, each standing at 107 meters. Its grand prayer hall accommodates over 15,000 worshippers, and the walls are adorned with intricate Quranic inscriptions. The mosque also houses an Islamic university, making it a major center for religious education.</string>
+
+    <!-- Emir Abdelkader Mosque Location -->
+    <string name="emir_abdelkader_mosque_location">Located in the center of Constantine, it stands as a symbol of Algeria’s cultural and religious heritage.</string>
+
+    <!-- Palace of Ahmed Bey -->
+    <string name="palace_ahmed_bey">Palace of Ahmed Bey</string>
+
+    <!-- Palace of Ahmed Bey Description -->
+    <string name="palace_ahmed_bey_desc">The Palace of Ahmed Bey is one of the finest Ottoman-era palaces in Algeria, built between 1826 and 1835. It served as the residence of Ahmed Bey, the last ruler of Constantine under Ottoman rule. The palace contains more than 120 rooms, beautifully decorated with Andalusian-style mosaics, elaborate paintings, and vast gardens filled with exotic plants. Today, it stands as a significant historical site, offering visitors a glimpse into Constantine’s past.</string>
+
+    <!-- Palace of Ahmed Bey Location -->
+    <string name="palace_ahmed_bey_location">Located in the heart of Constantine, near Martyrs’ Square, it is one of the city’s most important historical attractions.</string>
+
+
     <string name="location">Location</string>
     <string name="location_btn">See in Map</string>
+
+    <!-- About Page Title -->
+    <string name="about_title">About Cirta</string>
+
+    <!-- Main Tagline -->
+    <string name="about_tagline">Découvrez Constantine comme jamais auparavant!</string>
+
+    <!-- Main Description -->
+    <string name="about_description">Cirta is the comprehensive mobile guide designed to transform your exploration of Constantine, one of Algeria\'s most historic and breathtaking cities. We understand that travelers want convenience, depth, and authenticity when discovering a new destination – and that\'s exactly what we deliver.</string>
+
+    <!-- Why Cirta Section -->
+    <string name="about_why_title">Why Cirta?</string>
+    <string name="about_why_description">Before Cirta, exploring Constantine meant jumping between multiple websites, struggling with fragmented information, and potentially missing hidden gems. Our app brings everything you need into one powerful, user-friendly platform.</string>
+
+    <!-- Features -->
+    <string name="about_offer">What We Offer?</string>
+    <string name="about_feature_categories">Comprehensive Historical Sites\n-Local Restaurant Recommendations\n-Accommodation Options\n-Transportation Guides\n-Interactive City Maps\n->Local Tips and Insights</string>
+
+    <!-- Closing Tagline -->
+    <string name="about_closing_tagline">Explore. Discover. Experience.</string>
+
+    <string name="problem">Facing a Problem?</string>
+    <string name="send_feedback">Send us your feedback!</string>
+
 </resources>
