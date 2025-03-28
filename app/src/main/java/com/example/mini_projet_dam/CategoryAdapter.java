@@ -19,6 +19,7 @@ import java.util.List;
 public class CategoryAdapter extends ArrayAdapter<Category> {
     private final int resourceLayout;
 
+
     public CategoryAdapter(Context context, int resource, List<Category> categories) {
         super(context, resource, categories);
         this.resourceLayout = resource;

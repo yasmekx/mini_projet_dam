@@ -23,4 +23,5 @@
     <style name="secondary_text">
         <item name="android:textColor">@color/secondary_text_dark</item>
     </style>
+
 </resources>

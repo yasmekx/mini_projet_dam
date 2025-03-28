@@ -58,7 +58,6 @@ public class TouristSitesActivity extends BaseActivity {
                 intent = new Intent(TouristSitesActivity.this, Museum.class);
                 intent.putExtra("TITLE", getString(R.string.museums));
             }
-
             if (intent != null) {
                 startActivity(intent);
             }

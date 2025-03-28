@@ -22,6 +22,7 @@ public class About extends BaseActivity {
         setContentView(R.layout.about);
 
         //to change the color of the icon bar
+
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
 
