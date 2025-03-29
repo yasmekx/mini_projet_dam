@@ -48,6 +48,14 @@
 
     //Bus
 
+    <string name="bus">Bus</string>
+    <string name="tramway">Tramway</string>
+    <string name="cablecar">Cable car</string>
+
+
+
+
+
     <string name="Busg"> The bus network is managed by the Société de Transport de Constantine (STC).
     It connects the city is main districts, including markets, schools, hospitals, and
     residential areas.
