@@ -134,4 +134,10 @@
     <!-- Student 4 -->
     <string name="student4_name">بوخالفي أمينة</string>
     <string name="student4_contribution">طور قسم النقل بما في ذلك خيارات النقل العام، المسارات، الجداول الزمنية، تكامل الخرائط، وخدمات مشاركة الركوب.</string>
+
+    <!-- AMINA :) -->
+    <string name="bus">حافلة</string>
+    <string name="tramway">ترامواي</string>
+    <string name="cablecar">التلفريك</string>
+
 </resources>
