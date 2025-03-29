@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.GridView;
+import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
@@ -39,6 +40,11 @@ public class TransportationActivity extends BaseActivity {
         // Set up adapter
         adapter = new CategoryAdapter(this, R.layout.main_list, categories);
         lv.setAdapter(adapter);
+
+        //set title
+        TextView t = findViewById(R.id.title);
+        t.setText(R.string.Transportation);
+
 
         /// Add the OnItemClickListener HERE
         lv.setOnItemClickListener((parent, view, position, id) -> {
