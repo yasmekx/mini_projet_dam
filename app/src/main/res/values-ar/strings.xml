@@ -89,6 +89,10 @@
     <string name="location">الموقع:</string>
     <string name="location_btn">عرض على الخريطة</string>
 
+    <string name="contact">معلومات الاتصال</string>
+    <string name="call_btn">اتصل</string>
+
+
     <!-- عنوان صفحة حول -->
     <string name="about_title">حول سيرتا</string>
 
@@ -107,9 +111,28 @@
     <string name="about_feature_categories">المواقع التاريخية الشاملة\n-توصيات المطاعم المحلية\n-خيارات الإقامة\n-أدلة النقل والمواصلات\n-خرائط تفاعلية للمدينة\n-نصائح ومعلومات محلية</string>
 
     <!-- الشعار الختامي -->
-    <string name="about_closing_tagline">استكشف. اكتشف. عش التجربة.</string>
+    <string name="about_closing_tagline">استكشف، اكتشف، عش التجربة.</string>
 
     <string name="problem">تواجه مشكلة؟</string>
     <string name="send_feedback">!أرسل لنا ملاحظاتك</string>
+
+    <!-- Project Team Title -->
+    <string name="project_team">فريق المشروع</string>
+
+    <!-- Student 1 -->
+    <string name="student1_name">مناس كنزة</string>
+    <string name="student1_contribution">طورت الصفحة الرئيسية، قسم المعالم السياحية، قسم الأنشطة، قائمة الشريط، وجميع الوظائف المتعلقة بهذه الأنشطة.</string>
+
+    <!-- Student 2 -->
+    <string name="student2_name">بن حمو ياسمين</string>
+    <string name="student2_contribution">طورت قسم المطاعم بما في ذلك القوائم، التفاصيل، التقييمات، ووظيفة التصفية.</string>
+
+    <!-- Student 3 -->
+    <string name="student3_name">مازة كوثر</string>
+    <string name="student3_contribution">طورت قسم الفنادق بما في ذلك قوائم الإقامة، تفاصيل الغرف، واجهة الحجز، وفحص التوافر.</string>
+
+    <!-- Student 4 -->
+    <string name="student4_name">مايكل تشين</string>
+    <string name="student4_contribution">طور قسم النقل بما في ذلك خيارات النقل العام، المسارات، الجداول الزمنية، تكامل الخرائط، وخدمات مشاركة الركوب.</string>
 
 </resources>

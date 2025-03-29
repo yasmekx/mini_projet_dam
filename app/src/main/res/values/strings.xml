@@ -89,11 +89,15 @@
     <string name="location">Location</string>
     <string name="location_btn">See in Map</string>
 
+    <string name="contact">Contact Info</string>
+    <string name="call_btn">Call</string>
+
     <!-- About Page Title -->
     <string name="about_title">About Cirta</string>
 
     <!-- Main Tagline -->
-    <string name="about_tagline">Découvrez Constantine comme jamais auparavant!</string>
+    <string name="about_tagline">Discover Constantine like never before!</string>
+
 
     <!-- Main Description -->
     <string name="about_description">Cirta is the comprehensive mobile guide designed to transform your exploration of Constantine, one of Algeria\'s most historic and breathtaking cities. We understand that travelers want convenience, depth, and authenticity when discovering a new destination – and that\'s exactly what we deliver.</string>
@@ -107,9 +111,29 @@
     <string name="about_feature_categories">Comprehensive Historical Sites\n-Local Restaurant Recommendations\n-Accommodation Options\n-Transportation Guides\n-Interactive City Maps\n->Local Tips and Insights</string>
 
     <!-- Closing Tagline -->
-    <string name="about_closing_tagline">Explore. Discover. Experience.</string>
+    <string name="about_closing_tagline">Explore, Discover, Experience.</string>
 
     <string name="problem">Facing a Problem?</string>
     <string name="send_feedback">Send us your feedback!</string>
+
+    <!--team worke-->
+    <string name="project_team">Project Team</string>
+
+    <!-- Student 1 -->
+    <string name="student1_name">Mennas Kenza</string>
+    <string name="student1_contribution">Developed the main page, tourist attractions section, activities section, bar menu, and all related activity functionality.</string>
+
+    <!-- Student 2 -->
+    <string name="student2_name">Ben Hamou Yasmine </string>
+    <string name="student2_contribution">Developed the restaurants section including listings, details, reviews, and filtering functionality.</string>
+
+    <!-- Student 3 -->
+    <string name="student3_name">Maza Kaouther</string>
+    <string name="student3_contribution">Developed the hotels section including accommodation listings, room details, booking interface, and availability checker.(if u did it keep it or else ommit it^3^)</string>
+
+    <!-- Student 4 -->
+    <string name="student4_name">Michael Chen</string>
+    <string name="student4_contribution">Developed the transportation section including public transit options, routes, schedules, maps integration, and ride-sharing services.</string>
+
 
 </resources>
