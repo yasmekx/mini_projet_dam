@@ -107,7 +107,7 @@ public class Disc extends BaseActivity {
         int[][] discResIds = {
                 // Bridges
                 {
-                        R.string.sidi_mcid_desc,
+                         R.string.sidi_mcid_desc,
                         R.string.sidi_rached_desc,
                         R.string.el_kantara_desc,
                         R.string.pont_des_chutes_desc,
