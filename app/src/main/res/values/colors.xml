@@ -6,4 +6,9 @@
     <color name="secondary">#85bba4</color>  <!--#1B4D4F-->
     <color name="text">#2C2C2C</color>
     <color name="gray">#BEBEBE</color>
+    <color name="primary_text_light">#DE000000</color>
+    <color name="secondary_text_light">#8A000000</color>
+    <color name="primary_text_dark">#DEFFFFFF</color>
+    <color name="secondary_text_dark">#8AFFFFFF</color>
+
 </resources>

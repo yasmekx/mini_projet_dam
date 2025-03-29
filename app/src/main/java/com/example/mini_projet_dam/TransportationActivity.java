@@ -20,7 +20,7 @@ public class TransportationActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tourist_sites);
+        setContentView(R.layout.sub_activity_list);
         // Change status bar color (y'all keep these lines)
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));

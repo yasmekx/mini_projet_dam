@@ -50,6 +50,7 @@ public class Bridge extends BaseActivity {
                 Category selectedCategory = categories.get(position);
 
                 Intent intent = new Intent(Bridge.this, Disc.class);
+                intent.putExtra("CATEGORY_INDEX", 0); // This is the Bridges category
                 intent.putExtra("ITEM_INDEX", position); // Send the index
                 intent.putExtra("LATITUDE", selectedCategory.latitude);
                 intent.putExtra("LONGITUDE", selectedCategory.longitude);

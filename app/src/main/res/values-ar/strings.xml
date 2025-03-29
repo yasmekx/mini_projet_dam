@@ -49,13 +49,9 @@
 
 
     //Bus
-
     <string name="bus">حافلة</string>
     <string name="tramway">ترامواي</string>
     <string name="cablecar">تلفريك</string>
-
-
-
 
 
 

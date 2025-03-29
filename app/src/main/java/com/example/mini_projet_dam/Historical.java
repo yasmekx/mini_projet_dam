@@ -1,6 +1,9 @@
 package com.example.mini_projet_dam;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -11,23 +14,50 @@ public class Historical extends BaseActivity {
     ArrayList<Category> categories;
     ListView lv;
     CategoryAdapter adapter;
-    TextView titleTextView; // Reference to the TextView tit
+    TextView titleTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.simple_list); // Ensure you have a `bridge.xml` layout
+        setContentView(R.layout.simple_list);
 
-        // Retrieve the title passed from the intent
+        // Retrieve the title (e.g., "Bridges")
         String title = getIntent().getStringExtra("TITLE");
 
-        // Set the title to a TextView (Make sure you have a TextView with id titleTextView in bridge.xml)
-        TextView titleTextView = findViewById(R.id.titleTextView);
+        // Set the title
+        titleTextView = findViewById(R.id.titleTextView);
         if (titleTextView != null) {
             titleTextView.setText(title);
         }
 
+        // Initialize ListView and categories
+        lv = findViewById(R.id.listView);
+        categories = new ArrayList<>();
+
+        // Add items with names and locations (latitude, longitude)
+        categories.add(new Category(getString(R.string.emir_abdelkader_mosque), 36.3609, 6.6094));
+        categories.add(new Category(getString(R.string.palace_ahmed_bey), 36.3622, 6.6090));
+        /*categories.add(new Category(getString(R.string.el_kantara), 36.3680, 6.6150));
+        categories.add(new Category(getString(R.string.pont_des_chutes), 36.3645, 6.6128));
+        categories.add(new Category(getString(R.string.bab_el_kantra), 36.3670, 6.6110));*/
+
         // Set up adapter
         adapter = new CategoryAdapter(this, R.layout.item_list, categories);
         lv.setAdapter(adapter);
+
+        // Handle item click: Pass index and location data
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Category selectedCategory = categories.get(position);
+
+                Intent intent = new Intent(Historical.this, Disc.class);
+                intent.putExtra("CATEGORY_INDEX", 1); // This is the Bridges category
+                intent.putExtra("ITEM_INDEX", position); // Send the index
+                intent.putExtra("LATITUDE", selectedCategory.latitude);
+                intent.putExtra("LONGITUDE", selectedCategory.longitude);
+                startActivity(intent);
+            }
+        });
     }
 }
