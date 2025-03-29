@@ -1,24 +1,21 @@
 package com.example.mini_projet_dam;
 
 import android.os.Bundle;
+import android.view.Window;
+import androidx.core.content.ContextCompat;
 
-import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-public class restaurants extends AppCompatActivity {
-
+//check Base activity to understand why we're extending this class instead of the usual one:)
+public class restaurants extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_restaurants);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
+        // Change status bar color (yall keep these lines)
+        Window window = this.getWindow();
+        window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
+
+        //added a comment
+
     }
 }
