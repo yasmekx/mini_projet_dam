@@ -108,7 +108,7 @@
 
     <!-- Features -->
     <string name="about_offer">What We Offer?</string>
-    <string name="about_feature_categories">Comprehensive Historical Sites\n-Local Restaurant Recommendations\n-Accommodation Options\n-Transportation Guides\n-Interactive City Maps\n->Local Tips and Insights</string>
+    <string name="about_feature_categories">Comprehensive Historical Sites\n-Local Restaurant Recommendations\n-Accommodation Options\n-Transportation Guides\n-Interactive City Maps\n-Local Tips and Insights</string>
 
     <!-- Closing Tagline -->
     <string name="about_closing_tagline">Explore, Discover, Experience.</string>
@@ -132,7 +132,7 @@
     <string name="student3_contribution">Developed the hotels section including accommodation listings, room details, booking interface, and availability checker.(if u did it keep it or else ommit it^3^)</string>
 
     <!-- Student 4 -->
-    <string name="student4_name">Michael Chen</string>
+    <string name="student4_name">Boukhalfi Amina</string>
     <string name="student4_contribution">Developed the transportation section including public transit options, routes, schedules, maps integration, and ride-sharing services.</string>
 
 
