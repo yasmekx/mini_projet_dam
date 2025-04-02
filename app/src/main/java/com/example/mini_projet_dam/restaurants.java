@@ -33,139 +33,102 @@ public class restaurants extends BaseActivity {
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_details);
+        setContentView(R.layout.simple_list);
 
         // Change status bar color (yall keep these lines)
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
 
-        //get all the views into the variables
-        rest_image=this.findViewById(R.id.itemImageView);
-        rest_name=this.findViewById(R.id.itemNameTextView);
-        rest_disc=this.findViewById(R.id.disc);
-        rest_location=this.findViewById(R.id.loc);
-        mapButton=this.findViewById(R.id.mapButton);
-        Toolbar toolbar = findViewById(R.id.topAppBar);
 
-        // Set the Toolbar as the ActionBar
-        setSupportActionBar(toolbar);
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("TakeOff Lounge");
+        list.add("Restaurant les palmiers");
+        list.add("Snack YouYOu");
+        list.add("Magic House");
+        list.add("Igherssan Restaurant");
+        list.add("Le KS");
+
+        int [] images={
+                R.drawable.takeoff,
+                R.drawable.palmiers,
+                R.drawable.snackyouyou,
+                R.drawable.mgc_hse,
+                R.drawable.igherssan,
+                R.drawable.ks
+        };
+
+        int[] names={
+                R.string.takeOff_Lounge,
+                R.string.restaurant_les_palmiers,
+                R.string.snack_YouYou,
+                R.string.magic_house,
+                R.string.igherssan_Restaurant,
+                R.string.ks
+        };
+        int[]desciptions={
+                R.string.takeoff_description,
+                R.string.palmiers_description,
+                R.string.youyou_description,
+                R.string.magic_house_description,
+                R.string.igherssan_description,
+                R.string.ks_description
+        };
+        int []locations={
+                R.string.takeoff_location,
+                R.string.palmiers_location,
+                R.string.youyou_location,
+                R.string.magic_house_location,
+                R.string.igherssan_location,
+                R.string.ks_location
+        };
+
+        int []phone_numbers={
+                R.string.takeoff_number,
+                R.string.palmiers_number,
+                R.string.yoyou_number,
+                R.string.magic_number,
+                R.string.igherssan_number,
+                R.string.ks_number
+
+        };
+        int[] adresses={
+                R.string.takeoff_addr,
+                R.string.palmiers_addr,
+                R.string.youyouc_addr,
+                R.string.magic_addr,
+                R.string.igherssan_addr,
+                R.string.ks_addr
+        };
 
 
-
-        // Get the category index and item index sent from previous activity
-        categoryIndex = getIntent().getIntExtra("CATEGORY_INDEX", 0); // Default to 0 if not found
-        itemIndex = getIntent().getIntExtra("ITEM_INDEX", -1);
-
-        // Get location data
-        latitude = getIntent().getDoubleExtra("LATITUDE", 0.0);
-        longitude = getIntent().getDoubleExtra("LONGITUDE", 0.0);
-
-
-        ArrayList<String> list=new ArrayList<String>();
-        list.add("rsto1");
-        list.add("resto2");
-        list.add("resto3");
-
-        ArrayAdapter<String> adapter=new ArrayAdapter<String> (
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, R.layout.item_list, R.id.name, list);
 
-        ListView lv=(ListView)this.findViewById(R.id.listView);
+        ListView lv = (ListView) this.findViewById(R.id.listView);
         lv.setAdapter(adapter);
 
-        //now that the list is ready move on to activities for restaurants
+        //set an item click listener to open detailactivity
+
+        lv.setOnItemClickListener((parent, view, position, id) ->{
+            Intent intent =new Intent(restaurants.this,restautnat_details.class);
+
+            //now we pass the data needed
+            intent.putExtra("name",names[position]);
+            intent.putExtra("location",locations[position]);
+            intent.putExtra("image", images[position]);
+            intent.putExtra("phone",phone_numbers[position]);
+            intent.putExtra("description", desciptions[position]);
+            intent.putExtra("adress",adresses[position]);
+
+            //start the activity
+            startActivity(intent);
+        });
 
 
-        int[][] imageResIds = {
-                // pictures of restaurants
-                {
-                        R.drawable.igherssan,
-                        R.drawable.mgc_hse,
-                        R.drawable.palmiers,
-                        R.drawable.snackyouyou,
-                        R.drawable.takeoff
-                },
 
-        };
 
-        int[][] nameResIds = {
-                //names of restaurants
-                {
-                        R.string.igherssan_Restaurant,
-                        R.string.magic_house,
-                        R.string.restaurant_les_palmiers,
-                        R.string.snack_YouYou,
-                        R.string.takeOff_Lounge
 
-                },
-
-        };
-
-        int[][] discResIds = {
-                //discription of restaurants
-                {
-                        R.string.igherssan_description,
-                        R.string.magic_house_description,
-                        R.string.palmiers_description,
-                        R.string.youyou_description,
-                        R.string.takoff_description
-                },
-
-        };
-
-        int[][] locationResIds = {
-                //location of restaurants
-                {
-                        R.string.igherssan_location,
-                        R.string.magic_house_location,
-                        R.string.palmiers_location,
-                        R.string.youyou_location,
-                        R.string.takeoff_location
-                },
-
-        };
-
-        // Check if indices are valid
-        if (categoryIndex >= 0 && categoryIndex < imageResIds.length &&
-                itemIndex >= 0 && itemIndex < imageResIds[categoryIndex].length) {
-
-            getSupportActionBar().setTitle(nameResIds[categoryIndex][itemIndex]);
-
-            // Set image
-            rest_image.setImageResource(imageResIds[categoryIndex][itemIndex]);
-
-            // Set name
-            rest_name.setText(getString(nameResIds[categoryIndex][itemIndex]));
-
-            // Set description
-            rest_disc.setText(getString(discResIds[categoryIndex][itemIndex]));
-
-            // Set location
-            rest_location.setText(getString(locationResIds[categoryIndex][itemIndex]));
-        } else {
-            rest_image.setImageResource(R.drawable.default_image); // Default image
-        }
-
-        // Set click listener for map
-//        mapButton.setOnClickListener(v -> openGoogleMaps());
     }
-
-
-//    private void openGoogleMaps() {
-//        if (latitude != 0.0 && longitude != 0.0) {
-//            Uri gmmIntentUri = Uri.parse("geo:" + latitude + "," + longitude + "?q=" + latitude + "," + longitude);
-//            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-//            mapIntent.setPackage("com.google.android.apps.maps");
-//
-//            if (mapIntent.resolveActivity(getPackageManager()) != null) {
-//                startActivity(mapIntent);  // Open in Google Maps app
-//            } else {
-//                // Open in a web browser if Google Maps app is not installed
-//                Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-//                        Uri.parse("https://www.google.com/maps/search/?api=1&query=" + latitude + "," + longitude));
-//                startActivity(browserIntent);
-//            }
-//        }
-//    }
 }
 
 

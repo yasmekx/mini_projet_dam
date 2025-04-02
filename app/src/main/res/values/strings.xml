@@ -141,36 +141,49 @@
     <string name="cablecar">Cable car</string>
 
 
-<!--    yasmine-->
+    <!--    yasmine-->
 
-<!--    restaurants names-->
+    <!--    restaurants names-->
 
-    <string name="magic_house" translatable="false">Magic House</string>
-    <string name="takeOff_Lounge" translatable="false">TakeOff Lounge</string>
-    <string name="igherssan_Restaurant" translatable="false">Igherssan Restaurant</string>
-    <string name="restaurant_les_palmiers" translatable="false">Restaurant les palmiers</string>
-    <string name="ks" translatable="false"> Le KS restaurant et café</string>
-    <string name="snack_YouYou" translatable="false">Snack YouYou</string>
+        <string name="magic_house" translatable="false">Magic House</string>
+        <string name="takeOff_Lounge" translatable="false">TakeOff Lounge</string>
+        <string name="igherssan_Restaurant" translatable="false">Igherssan Restaurant</string>
+        <string name="restaurant_les_palmiers" translatable="false">Restaurant les palmiers</string>
+        <string name="ks" translatable="false"> Le KS restaurant et café</string>
+        <string name="snack_YouYou" translatable="false">Snack YouYou</string>
 
 
-
-<!--    restaurants description-->
+    <!--&lt;!&ndash;    restaurants description&ndash;&gt;-->
 
     <string name="magic_house_description">Magic House is a cozy restaurant offering a delightful mix of foods, vegan and vegetarian options, and quick bites. Enjoy flavorful small plates paired with a rich coffee or a fine coffee in a warm and welcoming atmosphere.</string>
-    <string name="takoff_description">TakeOff Lounge is the perfect spot for a delicious meal any time of day. Serving up sandwiches, burgers, and refreshing smoothies, along with flavorful small plates and fresh coffee, we offer something for everyone. Whether you're stopping by for breakfast, lunch, or dinner.</string>
+    <string name="takeoff_description" translatable="false">TakeOff Lounge is the perfect spot for a delicious meal any time of day. Serving up sandwiches, burgers, and refreshing smoothies, along with flavorful small plates and fresh coffee, we offer something for everyone. Whether you are stopping by for breakfast, lunch, or dinner.</string>
     <string name="igherssan_description">Igherssan Restaurant in Constantine offers a perfect blend of traditional Algerian cuisine and fresh seafood, served in a warm and inviting atmosphere. Enjoy flavorful tajines, couscous, and grilled seafood, paired with a selection of refreshing drinks, for an authentic and memorable dining experience.</string>
     <string name="palmiers_description">Restaurant les Palmiers is a seafood lover’s paradise, offering the freshest grilled fish, shrimp, and seafood specialties, along with flavorful chicken dishes, rice, and traditional Algerian cuisine. To complete your meal, indulge in a delightful selection of homemade desserts, all served in a warm and inviting setting.</string>
-    <string name="ks_description" translatable="false">KS Restaurant in Constantine is the go-to spot for delicious tacos, pizza, burgers, and sandwiches, all made with fresh ingredients and bold flavors. Whether you're craving a quick bite or a full meal, their menu also features refreshing drinks and indulgent desserts, making it the perfect place to satisfy any craving in a cozy, welcoming setting.</string>
-    <string name="youyou_description" translatable="false">Whether you\'re looking for a quick bite on the go or a satisfying meal with friends, Snack Youyou delivers speed, flavor, and a vibrant atmosphere—making every visit a treat!</string>
+    <string name="ks_description" translatable="false">KS Restaurant in Constantine is the go-to spot for delicious tacos, pizza, burgers, and sandwiches, all made with fresh ingredients and bold flavors. Whether you are craving a quick bite or a full meal, their menu also features refreshing drinks and indulgent desserts, making it the perfect place to satisfy any craving in a cozy, welcoming setting</string>
+    <string name="youyou_description" translatable="false">Whether you are looking for a quick bite on the go or a satisfying meal with friends, Snack Youyou delivers speed, flavor, and a vibrant atmosphere—making every visit a treat.</string>
 
-<!--    locations-->
-    <string name="magic_house_location" translatable="false">Constantine, next to MENTOURI University Campus</string>
-    <string name="takeoff_location" translatable="false">Constantine, Diabaoui Hadda Street</string>
-    <string name="igherssan_location" translatable="false">Constantine, Larbi Ben MHidi street</string>
-    <string name="palmiers_location" translatable="false">Constantine, 04 Chemins street, 25000</string>
-    <string name="ks_location" translatable="false">Constantine, Boulevard Pasteur</string>
-    <string name="youyou_location" translatable="false">Constantine, Djasr Kasentina</string>
+    <!--    locations-->
+        <string name="magic_house_location" translatable="false">Constantine, next to MENTOURI University Campus</string>
+        <string name="takeoff_location" translatable="false">Constantine, Diabaoui Hadda Street</string>
+        <string name="igherssan_location" translatable="false">Constantine, Larbi Ben MHidi street</string>
+        <string name="palmiers_location" translatable="false">Constantine, 04 Chemins street, 25000</string>
+        <string name="ks_location" translatable="false">Constantine, Boulevard Pasteur</string>
+        <string name="youyou_location" translatable="false">Constantine, Djasr Kasentina</string>
+<!--    phone numbers-->
+    <string name="magic_number" translatable="false">0557105433</string>
+    <string name="takeoff_number" translatable="false">0557395808</string>
+    <string name="igherssan_number" translatable="false">0560906580</string>
+    <string name="palmiers_number" translatable="false">0560943534</string>
+    <string name="ks_number" translatable="false">0552465272</string>
+    <string name="yoyou_number" translatable="false">0554580074</string>
 
+<!--    map address-->
+    <string name="magic_addr" translatable="false">8JP7+GJ2, Constantine</string>
+    <string name="takeoff_addr" translatable="false">9J45+7H Constantine</string>
+    <string name="igherssan_addr" translatable="false">9J87+PR Constantine</string>
+    <string name="palmiers_addr" translatable="false">7J62+7R El Khroub</string>
+    <string name="ks_addr" translatable="false">9J34+RG Constantine</string>
+    <string name="youyouc_addr" translatable="false">M3VC+2C4, Djasr Kasentina</string>
 
 
 
