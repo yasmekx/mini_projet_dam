@@ -102,10 +102,14 @@ public class restaurants extends BaseActivity {
 
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-                this, R.layout.item_list, R.id.name, list);
+                this, R.layout.item_list, R.id.name, getStringArray(names));
+
 
         ListView lv = (ListView) this.findViewById(R.id.listView);
         lv.setAdapter(adapter);
+
+        TextView default_name=this.findViewById(R.id.titleTextView);
+        default_name.setText(R.string.Restaurants);
 
         //set an item click listener to open detailactivity
 
@@ -124,10 +128,16 @@ public class restaurants extends BaseActivity {
             startActivity(intent);
         });
 
+    }
 
-
-
-
+    //this function coverts the ID int the "names " array into strings
+    //to use it in the array addapter
+    private String[] getStringArray(int[] resIds) {
+        String[] strings = new String[resIds.length];
+        for (int i = 0; i < resIds.length; i++) {
+            strings[i] = getString(resIds[i]);
+        }
+        return strings;
     }
 }
 

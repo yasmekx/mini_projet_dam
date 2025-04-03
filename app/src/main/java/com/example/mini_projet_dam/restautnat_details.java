@@ -82,16 +82,7 @@ public class restautnat_details extends BaseActivity {
             });
 
 
-
-
-
-
         }
-
-
-
-
-
 
     }
 

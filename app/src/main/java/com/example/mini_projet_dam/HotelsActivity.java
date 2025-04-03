@@ -15,5 +15,6 @@ public class HotelsActivity extends BaseActivity {
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
 
+//
     }
 }

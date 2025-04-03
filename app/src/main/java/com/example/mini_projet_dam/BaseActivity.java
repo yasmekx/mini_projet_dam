@@ -21,6 +21,7 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         loadLocale();
         super.onCreate(savedInstanceState);
+//
     }
 
     private void loadLocale() {

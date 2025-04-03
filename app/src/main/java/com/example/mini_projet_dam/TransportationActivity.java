@@ -4,14 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.GridView;
-import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
 import java.util.ArrayList;
 
-//check Base activity to understand why we're extending this class instead of the usual one:)
 public class TransportationActivity extends BaseActivity {
+
     ArrayList<Category> categories;
     GridView lv;
     CategoryAdapter adapter;
@@ -21,7 +20,7 @@ public class TransportationActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sub_activity_list);
+        setContentView(R.layout.sub_activity_list_transport);
         // Change status bar color (y'all keep these lines)
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
@@ -41,11 +40,6 @@ public class TransportationActivity extends BaseActivity {
         adapter = new CategoryAdapter(this, R.layout.main_list, categories);
         lv.setAdapter(adapter);
 
-        //set title
-        TextView t = findViewById(R.id.title);
-        t.setText(R.string.Transportation);
-
-
         /// Add the OnItemClickListener HERE
         lv.setOnItemClickListener((parent, view, position, id) -> {
             Intent intent = null;
@@ -60,11 +54,11 @@ public class TransportationActivity extends BaseActivity {
                 intent = new Intent(TransportationActivity.this, Cablecar.class);
                 intent.putExtra("TITLE", getString(R.string.cablecar));
             }
-
             if (intent != null) {
                 startActivity(intent);
             }
         });
+
 
 
     }

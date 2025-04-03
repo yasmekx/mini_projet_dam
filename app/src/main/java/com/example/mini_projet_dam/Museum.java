@@ -56,5 +56,6 @@ public class Museum extends BaseActivity{
                 startActivity(intent);
             }
         });
+//
     }
 }

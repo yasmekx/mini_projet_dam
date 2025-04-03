@@ -57,6 +57,8 @@ public class Bridge extends BaseActivity {
                 startActivity(intent);
             }
         });
+//
     }
 
 }
+

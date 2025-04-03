@@ -145,30 +145,30 @@
 
     <!--    restaurants names-->
 
-        <string name="magic_house" translatable="false">Magic House</string>
-        <string name="takeOff_Lounge" translatable="false">TakeOff Lounge</string>
-        <string name="igherssan_Restaurant" translatable="false">Igherssan Restaurant</string>
-        <string name="restaurant_les_palmiers" translatable="false">Restaurant les palmiers</string>
-        <string name="ks" translatable="false"> Le KS restaurant et café</string>
-        <string name="snack_YouYou" translatable="false">Snack YouYou</string>
+        <string name="magic_house">Magic House</string>
+        <string name="takeOff_Lounge">TakeOff Lounge</string>
+        <string name="igherssan_Restaurant">Igherssan Restaurant</string>
+        <string name="restaurant_les_palmiers">Restaurant les palmiers</string>
+        <string name="ks"> Le KS restaurant et café</string>
+        <string name="snack_YouYou">Snack YouYou</string>
 
 
     <!--&lt;!&ndash;    restaurants description&ndash;&gt;-->
 
     <string name="magic_house_description">Magic House is a cozy restaurant offering a delightful mix of foods, vegan and vegetarian options, and quick bites. Enjoy flavorful small plates paired with a rich coffee or a fine coffee in a warm and welcoming atmosphere.</string>
-    <string name="takeoff_description" translatable="false">TakeOff Lounge is the perfect spot for a delicious meal any time of day. Serving up sandwiches, burgers, and refreshing smoothies, along with flavorful small plates and fresh coffee, we offer something for everyone. Whether you are stopping by for breakfast, lunch, or dinner.</string>
+    <string name="takeoff_description">TakeOff Lounge is the perfect spot for a delicious meal any time of day. Serving up sandwiches, burgers, and refreshing smoothies, along with flavorful small plates and fresh coffee, we offer something for everyone. Whether you are stopping by for breakfast, lunch, or dinner.</string>
     <string name="igherssan_description">Igherssan Restaurant in Constantine offers a perfect blend of traditional Algerian cuisine and fresh seafood, served in a warm and inviting atmosphere. Enjoy flavorful tajines, couscous, and grilled seafood, paired with a selection of refreshing drinks, for an authentic and memorable dining experience.</string>
     <string name="palmiers_description">Restaurant les Palmiers is a seafood lover’s paradise, offering the freshest grilled fish, shrimp, and seafood specialties, along with flavorful chicken dishes, rice, and traditional Algerian cuisine. To complete your meal, indulge in a delightful selection of homemade desserts, all served in a warm and inviting setting.</string>
-    <string name="ks_description" translatable="false">KS Restaurant in Constantine is the go-to spot for delicious tacos, pizza, burgers, and sandwiches, all made with fresh ingredients and bold flavors. Whether you are craving a quick bite or a full meal, their menu also features refreshing drinks and indulgent desserts, making it the perfect place to satisfy any craving in a cozy, welcoming setting</string>
-    <string name="youyou_description" translatable="false">Whether you are looking for a quick bite on the go or a satisfying meal with friends, Snack Youyou delivers speed, flavor, and a vibrant atmosphere—making every visit a treat.</string>
+    <string name="ks_description">KS Restaurant in Constantine is the go-to spot for delicious tacos, pizza, burgers, and sandwiches, all made with fresh ingredients and bold flavors. Whether you are craving a quick bite or a full meal, their menu also features refreshing drinks and indulgent desserts, making it the perfect place to satisfy any craving in a cozy, welcoming setting</string>
+    <string name="youyou_description">Whether you are looking for a quick bite on the go or a satisfying meal with friends, Snack Youyou delivers speed, flavor, and a vibrant atmosphere—making every visit a treat.</string>
 
     <!--    locations-->
-        <string name="magic_house_location" translatable="false">Constantine, next to MENTOURI University Campus</string>
-        <string name="takeoff_location" translatable="false">Constantine, Diabaoui Hadda Street</string>
-        <string name="igherssan_location" translatable="false">Constantine, Larbi Ben MHidi street</string>
-        <string name="palmiers_location" translatable="false">Constantine, 04 Chemins street, 25000</string>
-        <string name="ks_location" translatable="false">Constantine, Boulevard Pasteur</string>
-        <string name="youyou_location" translatable="false">Constantine, Djasr Kasentina</string>
+        <string name="magic_house_location">Constantine, next to MENTOURI University Campus</string>
+        <string name="takeoff_location">Constantine, Diabaoui Hadda Street</string>
+        <string name="igherssan_location">Constantine, Larbi Ben MHidi street</string>
+        <string name="palmiers_location">Constantine, kadri Brahim street, 04 Chemins street, 25000</string>
+        <string name="ks_location">Constantine, Boulevard Pasteur</string>
+        <string name="youyou_location">Constantine, Djasr Kasentina</string>
 <!--    phone numbers-->
     <string name="magic_number" translatable="false">0557105433</string>
     <string name="takeoff_number" translatable="false">0557395808</string>
@@ -187,4 +187,50 @@
 
 
 
+    <!-- Bus  station names -->
+    <string name="sahraoui_taher">Sahraoui Tahar station</string>
+    <string name="ali_mendjeli">Ali Mendjeli station</string>
+
+    <!-- bus stations descreption -->
+
+    <string name="sahraoui_taher_descreption">The Sahraoui Tahar bus station is the main departure and arrival point for travelers using intercity transportation in the region.</string>
+    <string name="ali_mendjeli_descreption">Ali Mendjeli station in Constantine is a major bus station located in the new city of Ali Mendjeli. This station serves as the departure and arrival point for numerous trips between Constantine and other Algerian cities. </string>
+
+    <!-- bus location -->
+    <string name="sahraoui_taher_loc">located in the municipality of Constantine.</string>
+    <string name="ali_mendjeli_loc">located in the southern suburbs of Constantine.</string>
+
+
+
+    <!-- tramway stations name -->
+    <string name="ben_abdelmalek_ramdane">Ben Abdelmalek Ramdane Stadium station</string>
+    <string name="zouaghi_slimane">Zouaghi Slimane station</string>
+    <string name="chahid_kadri_brahim">Chahid Kadri Brahim station</string>
+
+    <!-- tramway station descreption -->
+    <string name="ben_abdelmalek_ramdane_desc">Ben Abdelmalek Ramdane Tram Station is the northern terminus of the Constantine tramway network in Algeria.</string>
+    <string name="zouaghi_slimane_desc">Zouaghi Slimane station is a key station on the Constantine tramway.</string>
+    <string name="chahid_kadri_brahim_desc">Chahid Kadri Brahim station serves as an interchange point brtween tram lines, facilitating access to the outlying areas of Constantine and neighboring towns.</string>
+
+    <!-- tramway location -->
+    <string name="ben_abdelmalek_ramdane_loc"> Located in Manzar Al Jameel neighborhood.</string>
+    <string name="zouaghi_slimane_loc">located in the southeast of the city.</string>
+    <string name="chahid_kadri_brahim_loc">located in the Ali Mendjeli administrative distrinct.</string>
+
+
+    <!-- cable car station name -->
+    <string name="tanouji">Tanouji station</string>
+    <string name="ibn_badis_university_hospital">Ibn Badis University Hospital station</string>
+    <string name="tatache_square">Tatache Square station</string>
+    
+    
+    <!-- cable car descreption -->
+    <string name="tanouji_desc">Tanouji Station also known as Emir  bdelkader District Station, is one of the three stations of the Constantine Cable Car, the cable car that connects the two banks of the Wadi Rum in the city Constantine.</string>
+    <string name="ibn_badis_university_hospital_desc">The Ibn Badis University Hospital station is an intermediate station in the Constantine cable car system.</string>
+    <string name="tatache_square_desc">The Tatache Square station (also known as the Signal Station) is one of the stations of the constantine cable car, which connects the city center to its upper neighborhoods.</string>
+
+    <!-- cable car location -->
+    <string name="tanouji_loc">runs along the Bab El Kantra suspension bridge. </string>
+    <string name="ibn_badis_university_hospital_loc">located in the Ben Seghir Abdelwahab neighborhood of Constantine, near the end of the Sidi Mcid Bridge.</string>
+    <string name="tatache_square_loc">located at an altitude of 619.29 meters, the distance between it an the Ibn Badis University Station is 1,092 meters.</string>
 </resources>

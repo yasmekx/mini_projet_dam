@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.button.MaterialButton;
 
-public class Disc extends BaseActivity {
+public class Disctransport extends BaseActivity {
 
     MaterialButton mapButton;
     int categoryIndex; // New variable to track category
@@ -49,110 +49,89 @@ public class Disc extends BaseActivity {
 
         // Arrays for item details
         int[][] imageResIds = {
-                // Bridges
+                // Bus station
                 {
-                        R.drawable.sidi_mcid,
-                        R.drawable.sidi_rached,
-                        R.drawable.el_kantara,
-                        R.drawable.pont_des_chutes,
-                        R.drawable.bab_el_kantra
+                        R.drawable.bus1,
+                        R.drawable.bus2,
+
                 },
-                // Historical Landmarks
+                // Tramway
                 {
-                        R.drawable.emir_abdelkader_mosque,
-                        R.drawable.palace_ahmed_bey
+                        R.drawable.tram1,
+                        R.drawable.tram2,
+                        R.drawable.tram3,
                 },
-                // Museums
+                // Cable car
                 {
-                        R.drawable.cirta_museum,
-                        R.drawable.cirta_museum,
-                        R.drawable.cirta_museum,
-                        R.drawable.cirta_museum,
-                        R.drawable.cirta_museum
-                },
-                // Natural Sites (New Category)
-                {
-                        R.drawable.ghabat_el_wahch,
-                        R.drawable.tiddis,
-                        R.drawable.oued_rhumel
+                        R.drawable.cablecar1,
+                        R.drawable.cablecar2,
+                        R.drawable.cablecar3,
+
                 }
+
         };
 
         int[][] nameResIds = {
-                // Bridges
+                // Bus station
                 {
-                        R.string.sidi_mcid,
-                        R.string.sidi_rached,
-                        R.string.el_kantara,
-                        R.string.pont_des_chutes,
-                        R.string.bab_el_kantra
+                        R.string.sahraoui_taher,
+                        R.string.ali_mendjeli,
+
                 },
-                // Historical Landmarks
+                // Tramway
                 {
-                        R.string.emir_abdelkader_mosque,
-                        R.string.palace_ahmed_bey
+                        R.string.ben_abdelmalek_ramdane,
+                        R.string.zouaghi_slimane,
+                        R.string.chahid_kadri_brahim,
                 },
-                // Museums
+                // cable car
                 {
-                        R.string.cirta_museum
-                },
-                // Natural Sites (New Category)
-                {
-                        R.string.ghabat_el_wahch,
-                        R.string.tiddis,
-                        R.string.oued_rhumel
+                        R.string.tanouji,
+                        R.string.ibn_badis_university_hospital,
+                        R.string.tatache_square,
                 }
+
         };
 
         int[][] discResIds = {
-                // Bridges
+                // Bus station
                 {
-                         R.string.sidi_mcid_desc,
-                        R.string.sidi_rached_desc,
-                        R.string.el_kantara_desc,
-                        R.string.pont_des_chutes_desc,
-                        R.string.bab_el_kantra_desc
+                        R.string.sahraoui_taher_descreption,
+                        R.string.ali_mendjeli_descreption,
+
                 },
-                // Historical Landmarks
+                // Tramway
                 {
-                        R.string.emir_abdelkader_mosque_desc,
-                        R.string.palace_ahmed_bey_desc
+                        R.string.ben_abdelmalek_ramdane_desc,
+                        R.string.zouaghi_slimane_desc,
+                        R.string.chahid_kadri_brahim_desc,
                 },
-                // Museums
+                // cable car
                 {
-                        R.string.cirta_museum_desc
-                },
-                // Natural Sites (New Category)
-                {
-                        R.string.ghabat_el_wahch_desc,
-                        R.string.tiddis_desc,
-                        R.string.oued_rhumel_desc
+                        R.string.tanouji_desc,
+                        R.string.ibn_badis_university_hospital_desc,
+                        R.string.tatache_square_desc,
                 }
+
         };
 
         int[][] locationResIds = {
-                // Bridges
+                // Bus
                 {
-                        R.string.sidi_mcid_location,
-                        R.string.sidi_rached_location,
-                        R.string.el_kantara_location,
-                        R.string.pont_des_chutes_location,
-                        R.string.bab_el_kantra_location
+                        R.string.sahraoui_taher_loc,
+                        R.string.ali_mendjeli_loc,
                 },
-                // Historical Landmarks
+                // Tramway
                 {
-                        R.string.emir_abdelkader_mosque_location,
-                        R.string.palace_ahmed_bey_location
+                        R.string.ben_abdelmalek_ramdane_loc,
+                        R.string.zouaghi_slimane_loc,
+                        R.string.chahid_kadri_brahim_loc,
                 },
-                // Museums
+                // Cable car
                 {
-                        R.string.cirta_museum_location
-                },
-                // Natural Sites (New Category)
-                {
-                        R.string.ghabat_el_wahch_location,
-                        R.string.tiddis_location,
-                        R.string.oued_rhumel_location
+                        R.string.tanouji_loc,
+                        R.string.ibn_badis_university_hospital_loc,
+                        R.string.tatache_square_loc,
                 }
         };
 

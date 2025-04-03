@@ -68,6 +68,20 @@
         <activity
             android:name=".restautnat_details"
             android:exported="false" />
+        <activity
+            android:name=".Disctransport"
+            android:exported="false"/>
+        <activity
+            android:name=".Bus"
+            android:exported="false"/>
+        <activity
+            android:name=".Tramway"
+            android:exported="false"/>
+        <activity
+            android:name=".Cablecar"
+            android:exported="false"/>
+
+
     </application>
 
 </manifest>

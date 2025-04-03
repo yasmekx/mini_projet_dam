@@ -139,9 +139,70 @@
     <string name="bus">حافلة</string>
     <string name="tramway">ترامواي</string>
     <string name="cablecar">التلفريك</string>
-    <string name="magic_house_description">ماجيك هاوس هو مطعم دافئ يقدم مزيجًا لذيذًا من الأطعمة، مع خيارات نباتية ونباتية صرفة، بالإضافة إلى وجبات خفيفة سريعة. استمتع بأطباق صغيرة مليئة بالنكهات مع قهوة غنية أو قهوة فاخرة في أجواء دافئة ومرحبة.</string>
-    <string name="takoff_description">تايك أوف لاونج هو المكان المثالي لتناول وجبة لذيذة في أي وقت من اليوم. نقدم السندويشات، والبرغر، والعصائر المنعشة، إلى جانب أطباق صغيرة مليئة بالنكهات وقهوة طازجة، لنلبي جميع الأذواق. سواء كنت تتوقف لتناول الإفطار، الغداء، أو العشاء، ستجد دائمًا ما يناسبك.</string>
-    <string name="igherssan_description">قدم مطعم إغيرسان في قسنطينة مزيجًا مثاليًا من المأكولات الجزائرية التقليدية والمأكولات البحرية الطازجة، في أجواء دافئة ومرحبة. استمتع بطواجن لذيذة، وكسكسي، ومأكولات بحرية مشوية، مع مجموعة مختارة من المشروبات المنعشة، لتجربة طعام أصيلة ولا تُنسى.</string>
+    <string name="snack_YouYou">سناك يويو</string>
+    <string name="magic_house_description">ماجيك هاوس هو مطعم دافئ يقدم مزيجًا لذيذًا من الأطعمة، مع خيارات نباتية صرفة، بالإضافة إلى وجبات خفيفة سريعة. استمتع بأطباق صغيرة مليئة بالنكهات مع قهوة غنية أو قهوة فاخرة في أجواء دافئة ومرحبة.</string>
+    <string name="takeoff_description">"تيك أوف لاونج هو المكان المثالي لتناول وجبة لذيذة في أي وقت من اليوم. نقدم السندويشات والبرغر والسموذي المنعش، إلى جانب أطباق صغيرة شهية وقهوة طازجة، لتناسب جميع الأذواق. سواء كنت تزورنا للإفطار أو الغداء أو العشاء. "</string>
+    <string name="igherssan_description">يقدم مطعم إغيرسان في قسنطينة مزيجًا مثاليًا من المأكولات الجزائرية التقليدية والمأكولات البحرية الطازجة، في أجواء دافئة ومرحبة. استمتع بطواجن لذيذة، وكسكسي، ومأكولات بحرية مشوية، مع مجموعة مختارة من المشروبات المنعشة، لتجربة طعام أصيلة ولا تُنسى.</string>
     <string name="palmiers_description">مطعم ليه بالمييه هو جنة لعشاق المأكولات البحرية، حيث يقدم أشهى الأسماك المشوية الطازجة، والروبيان، والتخصصات البحرية، إلى جانب أطباق الدجاج اللذيذة، والأرز، والمأكولات الجزائرية التقليدية. ولإكمال وجبتك، استمتع بمجموعة رائعة من الحلويات المنزلية، وكل ذلك في أجواء دافئة ومرحبة.</string>
+    <string name="magic_house">ماجك هاوس</string>
+    <string name="takeOff_Lounge">تايك اوف لاونج</string>
+    <string name="igherssan_Restaurant">مطعم ايغرسان</string>
+    <string name="restaurant_les_palmiers">مطعم النخيل</string>
+    <string name="ks">مطعم ks</string>
+    <string name="ks_description">مطعم KS في قسنطينة هو الوجهة المثالية لعشاق التاكو والبيتزا والبرغر والسندويشات، المحضّرة بمكونات طازجة ونكهات جريئة. سواء كنت ترغب في وجبة خفيفة أو وجبة مشبعة، يقدم المطعم أيضًا مشروبات منعشة وحلويات شهية، مما يجعله المكان المثالي لتلبية جميع الرغبات في أجواء دافئة ومريحة.</string>
+    <string name="youyou_description">"سواء كنت تبحث عن وجبة خفيفة أثناء التنقل أو وجبة مشبعة مع الأصدقاء، يقدم سناك يويو السرعة والنكهة والأجواء الحيوية، مما يجعل كل زيارة تجربة مميزة. "</string>
+    <string name="magic_house_location">قسنطينة امام الحي الجامعي منتوري</string>
+    <string name="takeoff_location">قسنطينة شارع دياباوي حدة</string>
+    <string name="igherssan_location">قسنطينة شارع العربي بن مهيدي</string>
+    <string name="palmiers_location">قسنطينة طريق قادري ابراهيم شارع ال 4 طرق</string>
+    <string name="ks_location">قسنطينة بوليفارد باستور</string>
+    <string name="youyou_location">قسنطينة جسر قسنطينة</string>
+
+    <!-- Bus station names -->
+    <string name="sahraoui_taher">محطة صحراوي طاهر</string>
+    <string name="ali_mendjeli">محطة علي منجلي</string>
+
+    <!-- bus station descreption -->
+
+    <string name="sahraoui_taher_descreption">محطة الحافلات الصحراوي الطاهر هي نقطة المغادرة والوصول الرئيسية للمسافرين الذين يستخدمون وسائل النقل بين المدن في المنطقة.</string>
+    <string name="ali_mendjeli_descreption">محطة علي منجلي في قسنطينة هي محطة حافلات رئيسية تقع في مدينة علي منجلي الجديدة. تُعدّ هذه المحطة نقطة انطلاق ووصول للعديد من الرحلات بين قسنطينة والمدن الجزائرية الأخرى. </string>
+
+    <!-- bus location -->
+    <string name="sahraoui_taher_loc">تقع في بلدية قسنطينة.</string>
+    <string name="ali_mendjeli_loc">تقع في الضاحية الجنوبية لقسنطينة.</string>
+
+    <!-- tramway stations name -->
+    <string name="ben_abdelmalek_ramdane">محطة بن عبد المالك رمضان</string>
+    <string name="zouaghi_slimane">محطة زواغي سليمان</string>
+    <string name="chahid_kadri_brahim">محطة الشهيد قادري إبراهيم</string>
+
+    <!-- tramway stations descreption -->
+    <string name="ben_abdelmalek_ramdane_desc">محطة ترامواي بن عبد المالك رمضان هي المحطة الشمالية النهائية لشبكة ترامواي قسنطينة في الجزائر. </string>
+    <string name="zouaghi_slimane_desc">محطة زواقي سليمان هي محطة رئيسية على خط الترامواي قسنطينة.</string>
+    <string name="chahid_kadri_brahim_desc">تعتبر محطة الشهيد قدري إبراهيم بمثابة نقطة تبادل بين خطوط الترام، مما يسهل الوصول إلى المناطق النائية من قسنطينة والمدن المجاورة.</string>
+
+    <!-- tramway location -->
+    <string name="ben_abdelmalek_ramdane_loc">يقع في حي منظر الجميل. </string>
+    <string name="zouaghi_slimane_loc">تقع في جنوب شرق المدينة.</string>
+    <string name="chahid_kadri_brahim_loc">تقع في منطقة علي منجلي الإدارية.</string>
+
+
+
+
+    <!-- cable car station name -->
+    <string name="tanouji">محطة تانوجي</string>
+    <string name="ibn_badis_university_hospital">محطة مستشفى ابن باديس الجامعي</string>
+    <string name="tatache_square">محطة ساحة ططاش</string>
+
+
+    <!-- cable car descreption -->
+    <string name="tanouji_desc">محطة تانوجي والمعروفة أيضًا باسم محطة حي الأمير عبد القادر، هي إحدى محطات تلفريك قسنطينة الثلاث، التلفريك الذي يربط ضفتي وادي رم في مدينة قسنطينة.</string>
+    <string name="ibn_badis_university_hospital_desc">محطة مستشفى ابن باديس الجامعي هي محطة وسيطة في نظام التلفريك قسنطينة.</string>
+    <string name="tatache_square_desc">محطة ساحة تاتاش (المعروفة أيضًا باسم محطة الإشارة) هي إحدى محطات تلفريك  قسنطينة، الذي يربط مركز المدينة بأحيائها العليا.</string>
+
+    <!-- cable car location -->
+    <string name="tanouji_loc">يمتد على طول جسر باب القنطرة المعلق. </string>
+    <string name="ibn_badis_university_hospital_loc"> يقع في حي بن الصغير عبد الوهاب قسنطينة، بالقرب من نهاية جسر سيدي مسيد. </string>
+    <string name="tatache_square_loc">تقع على ارتفاع 619.29 متر، والمسافة بينها وبين محطة جامعة ابن باديس 1092 متر.</string>
 
 </resources>
