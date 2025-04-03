@@ -58,5 +58,6 @@ public class Nature extends BaseActivity {
                 startActivity(intent);
             }
         });
+
     }
 }

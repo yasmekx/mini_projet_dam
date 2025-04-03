@@ -42,5 +42,6 @@ public class About extends BaseActivity {
                 }
             }
         });
+//        return null;
     }
 }

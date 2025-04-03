@@ -89,9 +89,6 @@ public class restaurant_details extends BaseActivity {
 
 
 
-
-
-
     }
 
 }

@@ -59,5 +59,6 @@ public class Historical extends BaseActivity {
                 startActivity(intent);
             }
         });
+//
     }
 }

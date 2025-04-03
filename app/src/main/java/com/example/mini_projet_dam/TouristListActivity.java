@@ -46,5 +46,6 @@ public class TouristListActivity extends BaseActivity {
         // Set up adapter
         adapter = new CategoryAdapter(this, R.layout.item_list, categories);
         lv.setAdapter(adapter);
+
     }
 }

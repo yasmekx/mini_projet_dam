@@ -179,6 +179,7 @@ public class Disc extends BaseActivity {
 
         // Set click listener for map
         mapButton.setOnClickListener(v -> openGoogleMaps());
+//
     }
 
     private void openGoogleMaps() {
