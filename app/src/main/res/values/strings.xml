@@ -233,7 +233,7 @@
     <string name="ks_addr" translatable="false">9J34+RG Constantine</string>
     <string name="youyouc_addr" translatable="false">M3VC+2C4, Djasr Kasentina</string>
 
-    <!--    restaurant's menus-->
+    <!--    com.example.mini_projet_dam.restaurant_class's menus-->
 
     <!--    les palmiers-->
     <string name="palmier_dorade" translatable="false">Dorade</string>

@@ -1,13 +1,11 @@
+package com.example.mini_projet_dam;
+
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.mini_projet_dam.BaseActivity;
-import com.example.mini_projet_dam.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.card.MaterialCardView;
 

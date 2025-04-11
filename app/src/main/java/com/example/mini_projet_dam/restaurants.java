@@ -2,7 +2,6 @@
 package com.example.mini_projet_dam;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.ArrayAdapter;
@@ -10,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
 import com.google.android.material.button.MaterialButton;
@@ -31,7 +29,7 @@ public class restaurants extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.simple_list);
+        setContentView(R.layout.restaurant_list);
 
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
@@ -194,16 +192,30 @@ public class restaurants extends BaseActivity {
                     "100 DA"}
         };
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(
-                this, R.layout.item_list, R.id.name, getStringArray(names));
+        //the list view
+        ListView listView=this.findViewById(R.id.listView);
+        ArrayList<restaurant_class>restaurants=new ArrayList<>();
+        restaurants.add(new restaurant_class("TakeOff Lounge","Fast Food",R.drawable.takeoff,3.5f));
+        restaurants.add(new restaurant_class("Restaurant Les Palmiers","Specialised in seafood",R.drawable.palmiers,4.5f));
+        restaurants.add(new restaurant_class("Snack YouYou","Fast Food",R.drawable.snackyouyou,3.2f));
+        restaurants.add(new restaurant_class("Magic House","Restaurant & cafe",R.drawable.mgc_hse,4.0f));
+        restaurants.add(new restaurant_class("Igherssan Restaurant","Traditional food",R.drawable.igherssan,5.0f));
+        restaurants.add(new restaurant_class("Le ks restaurant and Cafe","Fast Food and coffee",R.drawable.ks,4.0f));
 
-        ListView lv = findViewById(R.id.listView);
-        lv.setAdapter(adapter);
+        restaurant_adapter adapter=new restaurant_adapter(this,restaurants);
+        listView.setAdapter(adapter);
 
-        TextView default_name = findViewById(R.id.titleTextView);
-        default_name.setText(R.string.Restaurants);
 
-        lv.setOnItemClickListener((parent, view, position, id) -> {
+//        ArrayAdapter<String> adapter = new ArrayAdapter<>(
+//                this, R.layout.item_list, R.id.name, getStringArray(names));
+//
+//        ListView lv = findViewById(R.id.listView);
+//        lv.setAdapter(adapter);
+
+        //TextView default_name = findViewById(R.id.titleTextView);
+        //default_name.setText(R.string.Restaurants);
+
+        listView.setOnItemClickListener((parent, view, position, id) -> {
             Intent intent = new Intent(restaurants.this, restautnat_details.class);
 
             intent.putExtra("name", names[position]);
