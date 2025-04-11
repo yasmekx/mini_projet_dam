@@ -155,6 +155,187 @@
                         app:iconGravity="textStart"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+        <TableLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/table_dishes"
+
+
+
+            >
+                <!--                android:visibility="gone"-->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="Menu"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+
+            </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="Dish"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="Price"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:textSize="18sp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        />
+                </TableRow>
+
+
+                <!--                first dish-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/dish1"
+                        />
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/price1"/>
+                </TableRow>
+
+
+                <!--                second dish-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/dish2"
+                        />
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/price2"/>
+                </TableRow>
+
+
+                <!--                third dish-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/dish3"
+                        />
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/price3"/>
+                </TableRow>
+
+                <!--                fourth dish-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/dish4"
+                        />
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/price4"/>
+                </TableRow>
+
+                <!--                fifth dish-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/dish5"
+                        />
+
+                    <TextView
+                        style="@style/DishRowStyle"
+                        android:id="@+id/price5"/>
+                </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    style="@style/DishRowStyle"
+                    android:id="@+id/dish6"
+                    />
+
+                <TextView
+                    style="@style/DishRowStyle"
+                    android:id="@+id/price6"/>
+            </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

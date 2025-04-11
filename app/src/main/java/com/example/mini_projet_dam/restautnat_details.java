@@ -3,8 +3,11 @@ package com.example.mini_projet_dam;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.example.mini_projet_dam.BaseActivity;
@@ -16,6 +19,8 @@ public class restautnat_details extends BaseActivity {
 
     ImageView rest_image;
     TextView rest_name,rest_disc,rest_location,phonetxt;
+    TextView dish1,dish2,dish3,dish4,dish5,dish6;
+    TextView price1,price2,price3,price4,price5,price6;
     MaterialButton mapButton;
     MaterialButton callButton;
     MaterialCardView contactCardView;
@@ -36,6 +41,23 @@ public class restautnat_details extends BaseActivity {
         callButton= this.findViewById(R.id.callButton);
         contactCardView=findViewById(R.id.contactCardView);
 
+        TextView []tvs={
+                this.findViewById(R.id.dish1),
+                this.findViewById(R.id.dish2),
+                this.findViewById(R.id.dish3),
+                this.findViewById(R.id.dish4),
+                this.findViewById(R.id.dish5),
+                this.findViewById(R.id.dish6)
+        };
+
+        TextView []prices={
+                this.findViewById(R.id.price1),
+                this.findViewById(R.id.price2),
+                this.findViewById(R.id.price3),
+                this.findViewById(R.id.price4),
+                this.findViewById(R.id.price5),
+                this.findViewById(R.id.price6)
+        };
 
         // Toolbar toolbar = findViewById(R.id.topAppBar);
 
@@ -46,12 +68,12 @@ public class restautnat_details extends BaseActivity {
 
         Intent intent=getIntent();
         if(intent !=null){
-            String name = getString(intent.getIntExtra("name", R.string.ks));
-            String discription = getString(intent.getIntExtra("description", R.string.ks));
-            String location=getString(intent.getIntExtra("location",R.string.ks)) ;
-            int image=intent.getIntExtra("image",R.drawable.bab_el_kantra);
-            String phone = getString(intent.getIntExtra("phone",R.string.ks));
-            String adresses=getString(intent.getIntExtra("adress",R.string.ks)) ;
+            String name = getString(intent.getIntExtra("name", 0));
+            String discription = getString(intent.getIntExtra("description", 0));
+            String location=getString(intent.getIntExtra("location",0)) ;
+            int image=intent.getIntExtra("image",0);
+            String phone = getString(intent.getIntExtra("phone",0));
+            String adresses=getString(intent.getIntExtra("adress",0)) ;
             //update the ui
             rest_name.setText(name);
             rest_disc.setText(discription);
@@ -80,8 +102,27 @@ public class restautnat_details extends BaseActivity {
                 callIntent.setData(Uri.parse("tel:" + phone));
                 startActivity(callIntent);
             });
+        }
 
+        //filling the tablelayout
 
+        //reference the array
+        TableLayout tableLayout=findViewById(R.id.table_dishes);
+
+        //get the dishes array from the other activity
+        String[] dishes=getIntent().getStringArrayExtra("dishes");
+        String[] prices_t=getIntent().getStringArrayExtra("prices");
+
+        LayoutInflater inflater=LayoutInflater.from(this);
+
+        if(dishes!=null){
+            for(int i=0;i<dishes.length;i++){
+              TextView dishname=tvs[i];
+              TextView dishprice=prices[i];
+
+             dishname.setText(dishes[i]);
+             dishprice.setText(prices_t[i]);
+            }
         }
 
     }
