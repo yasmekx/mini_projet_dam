@@ -195,12 +195,12 @@ public class restaurants extends BaseActivity {
         //the list view
         ListView listView=this.findViewById(R.id.listView);
         ArrayList<restaurant_class>restaurants=new ArrayList<>();
-        restaurants.add(new restaurant_class("TakeOff Lounge","Fast Food",R.drawable.takeoff,3.5f));
-        restaurants.add(new restaurant_class("Restaurant Les Palmiers","Specialised in seafood",R.drawable.palmiers,4.5f));
-        restaurants.add(new restaurant_class("Snack YouYou","Fast Food",R.drawable.snackyouyou,3.2f));
-        restaurants.add(new restaurant_class("Magic House","Restaurant & cafe",R.drawable.mgc_hse,4.0f));
-        restaurants.add(new restaurant_class("Igherssan Restaurant","Traditional food",R.drawable.igherssan,5.0f));
-        restaurants.add(new restaurant_class("Le ks restaurant and Cafe","Fast Food and coffee",R.drawable.ks,4.0f));
+        restaurants.add(new restaurant_class(R.string.takeOff_Lounge,R.string.fast_food,R.drawable.takeoff,3.5f));
+        restaurants.add(new restaurant_class(R.string.restaurant_les_palmiers,R.string.seafood,R.drawable.palmiers,4.5f));
+        restaurants.add(new restaurant_class(R.string.snack_YouYou,R.string.fast_food,R.drawable.snackyouyou,3.2f));
+        restaurants.add(new restaurant_class(R.string.magic_house,R.string.rest_cafe,R.drawable.mgc_hse,4.0f));
+        restaurants.add(new restaurant_class(R.string.igherssan_Restaurant,R.string.traditional,R.drawable.igherssan,5.0f));
+        restaurants.add(new restaurant_class(R.string.ks,R.string.fast_cafe,R.drawable.ks,4.0f));
 
         restaurant_adapter adapter=new restaurant_adapter(this,restaurants);
         listView.setAdapter(adapter);
@@ -222,11 +222,4 @@ public class restaurants extends BaseActivity {
         });
     }
 
-    private String[] getStringArray(int[] resIds) {
-        String[] strings = new String[resIds.length];
-        for (int i = 0; i < resIds.length; i++) {
-            strings[i] = getString(resIds[i]);
-        }
-        return strings;
-    }
 }

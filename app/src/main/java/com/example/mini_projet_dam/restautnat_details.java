@@ -106,16 +106,16 @@ public class restautnat_details extends BaseActivity {
 
         //filling the tablelayout
 
-        //reference the array
-        TableLayout tableLayout=findViewById(R.id.table_dishes);
+        //referencing the table layout
+        TableLayout menu=findViewById(R.id.table_dishes);
 
         //get the dishes array from the other activity
         String[] dishes=getIntent().getStringArrayExtra("dishes");
         String[] prices_t=getIntent().getStringArrayExtra("prices");
 
-        LayoutInflater inflater=LayoutInflater.from(this);
 
-        if(dishes!=null){
+        if(dishes!=null && dishes.length>0){
+            menu.setVisibility(View.VISIBLE);
             for(int i=0;i<dishes.length;i++){
               TextView dishname=tvs[i];
               TextView dishprice=prices[i];

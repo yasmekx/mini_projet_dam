@@ -125,7 +125,7 @@
 
     <!-- Student 2 -->
     <string name="student2_name">Ben Hamou Yasmine </string>
-    <string name="student2_contribution">Developed the restaurants section including listings, details</string>
+    <string name="student2_contribution">Developed the restaurants section including listings, details and the list UI and the menu part</string>
 
     <!-- Student 3 -->
     <string name="student3_name">Maza Kaouther</string>
@@ -236,58 +236,65 @@
     <!--    com.example.mini_projet_dam.restaurant_class's menus-->
 
     <!--    les palmiers-->
-    <string name="palmier_dorade" translatable="false">Dorade</string>
-    <string name="palmier_merlon_grille" translatable="false">Grilled sea bass</string>
-    <string name="palmier_crevette" translatable="false">Grilled shrimp</string>
-    <string name="palmier_cocktail" translatable="false">Shrimp cocktail</string>
-    <string name="palmier_salade" translatable="false">Cesar salad with salmon</string>
-    <string name="palmier_couscous" translatable="false">CousCous</string>
+    <string name="palmier_dorade">Dorade</string>
+    <string name="palmier_merlon_grille">Grilled sea bass</string>
+    <string name="palmier_crevette">Grilled shrimp</string>
+    <string name="palmier_cocktail">Shrimp cocktail</string>
+    <string name="palmier_salade">Cesar salad with salmon</string>
+    <string name="palmier_couscous">CousCous</string>
 
     <!--    snacky-->
-    <string name="snack_tacos_poulet" translatable="false">Chicken tacos</string>
-    <string name="snack_tacos_viande" translatable="false">Beef tacos</string>
-    <string name="snack_chapati_viande" translatable="false">Beef chapati</string>
-    <string name="snack_chapati_poulet" translatable="false">Chicken chapati</string>
-    <string name="snack_crepe" translatable="false">Crepes</string>
-    <string name="snack_brownies" translatable="false">Brownies</string>
+    <string name="snack_tacos_poulet">Chicken tacos</string>
+    <string name="snack_tacos_viande">Beef tacos</string>
+    <string name="snack_chapati_viande">Beef chapati</string>
+    <string name="snack_chapati_poulet">Chicken chapati</string>
+    <string name="snack_crepe">Crepes</string>
+    <string name="snack_brownies">Brownies</string>
 
     <!--    ks-->
-    <string name="ks_beef_burger" translatable="false">Beef burger</string>
-    <string name="ks_cheese_burger" translatable="false">Cheese burger</string>
-    <string name="ks_pizza_margerita" translatable="false">Pizza margherita</string>
-    <string name="ks_panini_viande" translatable="false">Beef panini</string>
-    <string name="tiramissu" translatable="false">Tiramissu</string>
-    <string name="cheese_cake" translatable="false">Cheese cake</string>
+    <string name="ks_beef_burger">Beef burger</string>
+    <string name="ks_cheese_burger">Cheese burger</string>
+    <string name="ks_pizza_margerita">Pizza margherita</string>
+    <string name="ks_panini_viande">Beef panini</string>
+    <string name="tiramissu">Tiramissu</string>
+    <string name="cheese_cake">Cheese cake</string>
 
     <!--    magic house-->
-    <string name="mgc_escalope" translatable="false"> Cheese topped escalope</string>
-    <string name="mgc_eascalope_wsauce" translatable="false">Escalope with french sauce</string>
-    <string name="mgc_kebab" translatable="false">Chicken kebab</string>
-    <string name="mgc_tiramissu" translatable="false">Tiramissu</string>
-    <string name="mgc_mousse" translatable="false">Chocolate mousse</string>
-    <string name="mgc_poulet" translatable="false">Stuffed chicken</string>
+    <string name="mgc_escalope"> Cheese topped escalope</string>
+    <string name="mgc_eascalope_wsauce">Escalope with french sauce</string>
+    <string name="mgc_kebab">Chicken kebab</string>
+    <string name="mgc_tiramissu">Tiramissu</string>
+    <string name="mgc_mousse">Chocolate mousse</string>
+    <string name="mgc_poulet">Stuffed chicken</string>
 
 
     <!--takeoff lounge-->
 
-    <string name="lounge_margerita" translatable="false">Pizza margherita</string>
-    <string name="lounge_chkicken_pizza" translatable="false">Chicken Pizza</string>
-    <string name="lounge_bbq" translatable="false">BBQ</string>
-    <string name="lounge_pasta_salade" translatable="false">Pasta salad</string>
-    <string name="lounge_brownies" translatable="false">Brownies</string>
-    <string name="lounge_creme_brule" translatable="false">Créme brulé</string>
+    <string name="lounge_margerita">Pizza margherita</string>
+    <string name="lounge_chkicken_pizza">Chicken Pizza</string>
+    <string name="lounge_bbq">BBQ</string>
+    <string name="lounge_pasta_salade">Pasta salad</string>
+    <string name="lounge_brownies">Brownies</string>
+    <string name="lounge_creme_brule">Créme brulé</string>
 
 
     <!--igherssan-->
-    <string name="ighr_merlon_grille" translatable="false">Grilled sea bass</string>
-    <string name="ighr_espadon_grille" translatable="false">Grilled swordfish</string>
-    <string name="ighr_rouget_grille" translatable="false">Grilled red mullet</string>
-    <string name="ighr_spagheti" translatable="false">Spaghetti arabiata</string>
-    <string name="ighr_caffe" translatable="false">Cofee with cream</string>
-    <string name="ighr_the" translatable="false">Mint tea</string>
+    <string name="ighr_merlon_grille">Grilled sea bass</string>
+    <string name="ighr_espadon_grille">Grilled swordfish</string>
+    <string name="ighr_rouget_grille">Grilled red mullet</string>
+    <string name="ighr_spagheti">Spaghetti arabiata</string>
+    <string name="ighr_caffe">Cofee with cream</string>
+    <string name="ighr_the">Mint tea</string>
 
+    <!--    restaurant types-->
+    <string name="fast_food" >Fast Food</string>
+    <string name="seafood">Specialised in seafood</string>
+    <string name="rest_cafe">Restaurant and caffe </string>
+    <string name="traditional">Traditional food</string>
+    <string name="fast_cafe" >Fast food and coffee</string>
 
-
+    <string name="dish" >Dish</string>
+    <string name="price" >Price</string>
 
 
 

@@ -62,27 +62,6 @@ public class restaurant_details extends BaseActivity {
             else { contactCardView.setVisibility(View.GONE);}
 
 
-            // Open location in Google Maps
-//            mapButton.setOnClickListener(v -> {
-//                Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + Uri.encode(location));
-//                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-//                mapIntent.setPackage("com.google.android.apps.maps");
-//                startActivity(mapIntent);
-//            });
-
-
-            // Dial phone number
-//            callButton.setOnClickListener(v -> {
-//                Intent callIntent = new Intent(Intent.ACTION_DIAL);
-//                callIntent.setData(Uri.parse("tel:" + phone));
-//                startActivity(callIntent);
-//            });
-
-
-
-
-
-
         }
 
 

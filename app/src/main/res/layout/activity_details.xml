@@ -175,11 +175,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:id="@+id/table_dishes"
+                android:visibility="gone">
 
-
-
-            >
-                <!--                android:visibility="gone"-->
 
             <TableRow
                 android:layout_width="match_parent"
@@ -195,7 +192,8 @@
                     android:text="Menu"
                     android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:textStyle="italic" />
+                    android:textStyle="italic"
+                    />
 
 
             </TableRow>
@@ -206,20 +204,17 @@
                     <TextView
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
-                        android:text="Dish"
-                        android:textColor="@color/white"
+                        android:text="@string/dish"
                         android:textStyle="italic"
                         android:textSize="18sp"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-
                         />
 
                     <TextView
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
-                        android:text="Price"
-                        android:textColor="@color/white"
+                        android:text="@string/price"
                         android:textStyle="italic"
                         android:textSize="18sp"
                         android:layout_weight="1"
