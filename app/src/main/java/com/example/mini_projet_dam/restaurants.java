@@ -34,14 +34,6 @@ public class restaurants extends BaseActivity {
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
 
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("TakeOff Lounge");
-        list.add("Restaurant les palmiers");
-        list.add("Snack YouYOu");
-        list.add("Magic House");
-        list.add("Igherssan Restaurant");
-        list.add("Le KS");
-
         int[] images = {
                 R.drawable.takeoff,
                 R.drawable.palmiers,
@@ -195,6 +187,7 @@ public class restaurants extends BaseActivity {
         //the list view
         ListView listView=this.findViewById(R.id.listView);
         ArrayList<restaurant_class>restaurants=new ArrayList<>();
+        //filling the array
         restaurants.add(new restaurant_class(R.string.takeOff_Lounge,R.string.fast_food,R.drawable.takeoff,3.5f));
         restaurants.add(new restaurant_class(R.string.restaurant_les_palmiers,R.string.seafood,R.drawable.palmiers,4.5f));
         restaurants.add(new restaurant_class(R.string.snack_YouYou,R.string.fast_food,R.drawable.snackyouyou,3.2f));
@@ -202,13 +195,15 @@ public class restaurants extends BaseActivity {
         restaurants.add(new restaurant_class(R.string.igherssan_Restaurant,R.string.traditional,R.drawable.igherssan,5.0f));
         restaurants.add(new restaurant_class(R.string.ks,R.string.fast_cafe,R.drawable.ks,4.0f));
 
+        //setting the adapter
         restaurant_adapter adapter=new restaurant_adapter(this,restaurants);
         listView.setAdapter(adapter);
 
-
+        //control click events of the list
         listView.setOnItemClickListener((parent, view, position, id) -> {
             Intent intent = new Intent(restaurants.this, restautnat_details.class);
 
+            //we send the data to the other activity
             intent.putExtra("name", names[position]);
             intent.putExtra("location", locations[position]);
             intent.putExtra("image", images[position]);
@@ -218,6 +213,7 @@ public class restaurants extends BaseActivity {
             intent.putExtra("dishes", dishes[position]);
             intent.putExtra("prices", prices[position]);
 
+            //start the activity
             startActivity(intent);
         });
     }

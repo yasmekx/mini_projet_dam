@@ -41,23 +41,25 @@ public class restautnat_details extends BaseActivity {
         callButton= this.findViewById(R.id.callButton);
         contactCardView=findViewById(R.id.contactCardView);
 
-        TextView []tvs={
+        TextView [][]tvs={
+                {
                 this.findViewById(R.id.dish1),
                 this.findViewById(R.id.dish2),
                 this.findViewById(R.id.dish3),
                 this.findViewById(R.id.dish4),
                 this.findViewById(R.id.dish5),
                 this.findViewById(R.id.dish6)
-        };
-
-        TextView []prices={
+                },{
                 this.findViewById(R.id.price1),
                 this.findViewById(R.id.price2),
                 this.findViewById(R.id.price3),
                 this.findViewById(R.id.price4),
                 this.findViewById(R.id.price5),
                 this.findViewById(R.id.price6)
+        }
+
         };
+
 
         // Toolbar toolbar = findViewById(R.id.topAppBar);
 
@@ -117,8 +119,8 @@ public class restautnat_details extends BaseActivity {
         if(dishes!=null && dishes.length>0){
             menu.setVisibility(View.VISIBLE);
             for(int i=0;i<dishes.length;i++){
-              TextView dishname=tvs[i];
-              TextView dishprice=prices[i];
+              TextView dishname=tvs[0][i];
+              TextView dishprice=tvs[1][i];
 
              dishname.setText(dishes[i]);
              dishprice.setText(prices_t[i]);
