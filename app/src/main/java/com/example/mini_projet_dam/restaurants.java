@@ -29,7 +29,7 @@ public class restaurants extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.restaurant_list);
+        setContentView(R.layout.listview_rest);
 
         Window window = this.getWindow();
         window.setStatusBarColor(ContextCompat.getColor(this, R.color.main_color));
@@ -205,15 +205,6 @@ public class restaurants extends BaseActivity {
         restaurant_adapter adapter=new restaurant_adapter(this,restaurants);
         listView.setAdapter(adapter);
 
-
-//        ArrayAdapter<String> adapter = new ArrayAdapter<>(
-//                this, R.layout.item_list, R.id.name, getStringArray(names));
-//
-//        ListView lv = findViewById(R.id.listView);
-//        lv.setAdapter(adapter);
-
-        //TextView default_name = findViewById(R.id.titleTextView);
-        //default_name.setText(R.string.Restaurants);
 
         listView.setOnItemClickListener((parent, view, position, id) -> {
             Intent intent = new Intent(restaurants.this, restautnat_details.class);

@@ -31,7 +31,7 @@ public class restaurant_adapter extends ArrayAdapter<restaurant_class> {
         if(convertView==null){
             convertView= LayoutInflater.from(context).inflate(R.layout.restaurant_list,parent,false);
         }
-        ImageView imageview=convertView.findViewById(R.id.img);
+        ImageView imageview=convertView.findViewById(R.id.image);
         TextView name=convertView.findViewById(R.id.Name);
         TextView desc=convertView.findViewById(R.id.Description);
         RatingBar ratings=convertView.findViewById(R.id.ratingBar);
